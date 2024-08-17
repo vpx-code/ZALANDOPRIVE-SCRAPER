@@ -1,0 +1,36 @@
+[
+  {
+    $lookup: {
+      from: "categories",
+      localField: "categoryId",
+      foreignField: "id",
+      as: "categoryName"
+    }
+  },
+  {
+    $unwind: {
+      path: "$categoryName",
+      includeArrayIndex: "i",
+      preserveNullAndEmptyArrays: false
+    }
+  },
+  {
+    $addFields: {
+      categorySlug: "$categoryName.name"
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      categorySlug: 1,
+      filterName: 1,
+      categoryId: 1,
+      gender: {
+        $arrayElemAt: [
+          "$categoryName.ancestor_names",
+          1
+        ]
+      }
+    }
+  }
+]

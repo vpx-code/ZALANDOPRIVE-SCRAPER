@@ -1,0 +1,73 @@
+services:
+  mongodb:
+    image: mongo:4.4.0
+    secrets:
+      - mongodb_username
+      - mongodb_password
+    volumes:
+      - mongo_data:/data/db
+      - ./database/mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh:ro
+    ports:
+      - 27017:27017
+    networks:
+      - network
+
+  tor-proxy:
+    image: dockage/tor-privoxy
+    ports:
+      - "8118:8118"
+    networks:
+      - network
+
+  selenium-chromium:
+    image: seleniarm/standalone-chromium:latest
+    ports:
+      - "4444:4444"
+    networks:
+      - network
+
+  nodejs-server:
+    image: zp-node
+    ports:
+      - "1939:1939"
+    environment:
+      - MONGODB_URI=/run/secrets/mongodb_uri
+      - PROXY_URI=/run/secrets/proxy_uri
+      - ZALANDO_EMAIL=/run/secrets/zalando_email
+      - ZALANDO_PASSWORD=/run/secrets/zalando_password
+      - SCHEDULER_HOUR=7
+      - SCHEDULER_MINUTE=0
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    secrets:
+      - mongodb_uri
+      - proxy_uri
+      - zalando_email
+      - zalando_password
+    depends_on:
+      - mongodb
+      - tor-proxy
+      - selenium-chromium
+    networks:
+      - network
+
+secrets:
+  mongodb_username:
+    file: ./secrets/mongodb_username.txt
+  mongodb_password:
+    file: ./secrets/mongodb_password.txt
+  mongodb_uri:
+    file: ./secrets/mongodb_uri.txt
+  proxy_uri:
+    file: ./secrets/proxy_uri.txt
+  zalando_email:
+    file: ./secrets/zalando_email.txt
+  zalando_password:
+    file: ./secrets/zalando_password.txt
+
+networks:
+  network:
+    driver: overlay
+
+volumes:
+  mongo_data:
