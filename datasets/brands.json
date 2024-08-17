@@ -1,0 +1,1810 @@
+[
+    {
+        "brandCode": "AR1",
+        "brandName": "*Art"
+    },
+    {
+        "brandCode": "111",
+        "brandName": "11 DEGREES"
+    },
+    {
+        "brandCode": "270",
+        "brandName": "274"
+    },
+    {
+        "brandCode": "4F0",
+        "brandName": "4F"
+    },
+    {
+        "brandCode": "7D0",
+        "brandName": "7 DAYS Active"
+    },
+    {
+        "brandCode": "7F1",
+        "brandName": "7 for all mankind"
+    },
+    {
+        "brandCode": "870",
+        "brandName": "87Origins"
+    },
+    {
+        "brandCode": "AF8",
+        "brandName": "A fish named fred"
+    },
+    {
+        "brandCode": "AI1",
+        "brandName": "A.S.98"
+    },
+    {
+        "brandCode": "A0F",
+        "brandName": "Abercrombie & Fitch"
+    },
+    {
+        "brandCode": "ACV",
+        "brandName": "Ace & Tate"
+    },
+    {
+        "brandCode": "AD7",
+        "brandName": "adidas by Stella McCartney"
+    },
+    {
+        "brandCode": "AD1",
+        "brandName": "adidas Originals"
+    },
+    {
+        "brandCode": "AD5",
+        "brandName": "adidas Performance"
+    },
+    {
+        "brandCode": "ADQ",
+        "brandName": "adidas Sportswear"
+    },
+    {
+        "brandCode": "ADD",
+        "brandName": "Adidas Terrex"
+    },
+    {
+        "brandCode": "AI2",
+        "brandName": "Aigle"
+    },
+    {
+        "brandCode": "2AI",
+        "brandName": "AIGNER"
+    },
+    {
+        "brandCode": "A5Q",
+        "brandName": "ALEKO"
+    },
+    {
+        "brandCode": "A17",
+        "brandName": "alife & kickin"
+    },
+    {
+        "brandCode": "A80",
+        "brandName": "Allbirds"
+    },
+    {
+        "brandCode": "A0Q",
+        "brandName": "AllSaints"
+    },
+    {
+        "brandCode": "AT8",
+        "brandName": "American Tourister"
+    },
+    {
+        "brandCode": "A23",
+        "brandName": "Anerkjendt"
+    },
+    {
+        "brandCode": "A41",
+        "brandName": "Anon"
+    },
+    {
+        "brandCode": "A18",
+        "brandName": "Antony Morato"
+    },
+    {
+        "brandCode": "A15",
+        "brandName": "Arena"
+    },
+    {
+        "brandCode": "ARU",
+        "brandName": "ARKET"
+    },
+    {
+        "brandCode": "AR3",
+        "brandName": "ARMEDANGELS"
+    },
+    {
+        "brandCode": "AS1",
+        "brandName": "ASICS"
+    },
+    {
+        "brandCode": "A0H",
+        "brandName": "ASICS SportStyle"
+    },
+    {
+        "brandCode": "AUD",
+        "brandName": "Auden Cavill"
+    },
+    {
+        "brandCode": "AXF",
+        "brandName": "Axel Arigato"
+    },
+    {
+        "brandCode": "BA7",
+        "brandName": "Baldessarini"
+    },
+    {
+        "brandCode": "B5V",
+        "brandName": "BALL"
+    },
+    {
+        "brandCode": "BA2",
+        "brandName": "Barbour"
+    },
+    {
+        "brandCode": "BG8",
+        "brandName": "Barbour International"
+    },
+    {
+        "brandCode": "B89",
+        "brandName": "Barts"
+    },
+    {
+        "brandCode": "QX7",
+        "brandName": "BDG Urban Outfitters"
+    },
+    {
+        "brandCode": "B60",
+        "brandName": "Bell"
+    },
+    {
+        "brandCode": "B70",
+        "brandName": "Bellfield"
+    },
+    {
+        "brandCode": "BE1",
+        "brandName": "Ben Sherman"
+    },
+    {
+        "brandCode": "BE6",
+        "brandName": "Bench"
+    },
+    {
+        "brandCode": "BEJ",
+        "brandName": "Bershka"
+    },
+    {
+        "brandCode": "B01",
+        "brandName": "Bertoni"
+    },
+    {
+        "brandCode": "BVZ",
+        "brandName": "BIANCOPERLA"
+    },
+    {
+        "brandCode": "BI1",
+        "brandName": "Birkenstock"
+    },
+    {
+        "brandCode": "BJ2",
+        "brandName": "Björn Borg"
+    },
+    {
+        "brandCode": "BL5",
+        "brandName": "Blend"
+    },
+    {
+        "brandCode": "BB7",
+        "brandName": "Blood Brother"
+    },
+    {
+        "brandCode": "BL8",
+        "brandName": "Blue Seven"
+    },
+    {
+        "brandCode": "F22",
+        "brandName": "Bogner Fire + Ice"
+    },
+    {
+        "brandCode": "BB1",
+        "brandName": "BOSS"
+    },
+    {
+        "brandCode": "BRM",
+        "brandName": "Brandit"
+    },
+    {
+        "brandCode": "BR5",
+        "brandName": "Braun Büffel"
+    },
+    {
+        "brandCode": "BRH",
+        "brandName": "Brave Soul"
+    },
+    {
+        "brandCode": "BX0",
+        "brandName": "BRAX"
+    },
+    {
+        "brandCode": "B24",
+        "brandName": "British Knights"
+    },
+    {
+        "brandCode": "BK4",
+        "brandName": "Brooks Brothers"
+    },
+    {
+        "brandCode": "B32",
+        "brandName": "Brunotti"
+    },
+    {
+        "brandCode": "BRI",
+        "brandName": "Bruun & Stengade"
+    },
+    {
+        "brandCode": "BR3",
+        "brandName": "Bruuns Bazaar"
+    },
+    {
+        "brandCode": "B43",
+        "brandName": "Buff"
+    },
+    {
+        "brandCode": "BU1",
+        "brandName": "bugatti"
+    },
+    {
+        "brandCode": "BU2",
+        "brandName": "Bullboxer"
+    },
+    {
+        "brandCode": "B17",
+        "brandName": "Burton"
+    },
+    {
+        "brandCode": "BYF",
+        "brandName": "BY GARMENT MAKERS"
+    },
+    {
+        "brandCode": "C6F",
+        "brandName": "C&A"
+    },
+    {
+        "brandCode": "AX9",
+        "brandName": "Call it Spring"
+    },
+    {
+        "brandCode": "CAW",
+        "brandName": "Callaway"
+    },
+    {
+        "brandCode": "6CA",
+        "brandName": "Calvin Klein"
+    },
+    {
+        "brandCode": "C18",
+        "brandName": "Calvin Klein Jeans"
+    },
+    {
+        "brandCode": "C2Q",
+        "brandName": "Calvin Klein Jeans Plus"
+    },
+    {
+        "brandCode": "CKA",
+        "brandName": "Calvin Klein Performance"
+    },
+    {
+        "brandCode": "C17",
+        "brandName": "Calvin Klein Swimwear"
+    },
+    {
+        "brandCode": "CAR",
+        "brandName": "Calvin Klein Tailored"
+    },
+    {
+        "brandCode": "CA5",
+        "brandName": "camel active"
+    },
+    {
+        "brandCode": "CA3",
+        "brandName": "Camper"
+    },
+    {
+        "brandCode": "CAP",
+        "brandName": "Carlo Colucci"
+    },
+    {
+        "brandCode": "14C",
+        "brandName": "Carrera"
+    },
+    {
+        "brandCode": "C74",
+        "brandName": "Cars Jeans"
+    },
+    {
+        "brandCode": "CJ2",
+        "brandName": "Carter's"
+    },
+    {
+        "brandCode": "C44",
+        "brandName": "Casall"
+    },
+    {
+        "brandCode": "C1A",
+        "brandName": "Casual Friday"
+    },
+    {
+        "brandCode": "CA1",
+        "brandName": "Cat Footwear"
+    },
+    {
+        "brandCode": "C2K",
+        "brandName": "Caterpillar"
+    },
+    {
+        "brandCode": "RC2",
+        "brandName": "Cavalli Class"
+    },
+    {
+        "brandCode": "CE1",
+        "brandName": "Cerruti"
+    },
+    {
+        "brandCode": "2CG",
+        "brandName": "CG – Club of Gents"
+    },
+    {
+        "brandCode": "C76",
+        "brandName": "Champion"
+    },
+    {
+        "brandCode": "C4A",
+        "brandName": "Champion Rochester"
+    },
+    {
+        "brandCode": "CH5",
+        "brandName": "Chevignon"
+    },
+    {
+        "brandCode": "C38",
+        "brandName": "Chiemsee"
+    },
+    {
+        "brandCode": "CI1",
+        "brandName": "Cinque"
+    },
+    {
+        "brandCode": "CL2",
+        "brandName": "Clae"
+    },
+    {
+        "brandCode": "CFI",
+        "brandName": "CLOCKHOUSE"
+    },
+    {
+        "brandCode": "CLR",
+        "brandName": "CLOSURE London"
+    },
+    {
+        "brandCode": "C70",
+        "brandName": "CMP"
+    },
+    {
+        "brandCode": "CZ4",
+        "brandName": "Cole Haan"
+    },
+    {
+        "brandCode": "C00",
+        "brandName": "Colmar"
+    },
+    {
+        "brandCode": "CM0",
+        "brandName": "Colmar Originals"
+    },
+    {
+        "brandCode": "C23",
+        "brandName": "Columbia"
+    },
+    {
+        "brandCode": "CO4",
+        "brandName": "Converse"
+    },
+    {
+        "brandCode": "C66",
+        "brandName": "Craft"
+    },
+    {
+        "brandCode": "CR4",
+        "brandName": "Crocs"
+    },
+    {
+        "brandCode": "CR8",
+        "brandName": "Cross Sportswear"
+    },
+    {
+        "brandCode": "DA7",
+        "brandName": "Dakine"
+    },
+    {
+        "brandCode": "0DC",
+        "brandName": "DC COMICS ORIGINALS"
+    },
+    {
+        "brandCode": "DC1",
+        "brandName": "DC Shoes"
+    },
+    {
+        "brandCode": "D0U",
+        "brandName": "Deadwood"
+    },
+    {
+        "brandCode": "D0Y",
+        "brandName": "Dee Ocleppo"
+    },
+    {
+        "brandCode": "DEZ",
+        "brandName": "DeFacto"
+    },
+    {
+        "brandCode": "DK0",
+        "brandName": "Dekker"
+    },
+    {
+        "brandCode": "DEO",
+        "brandName": "Denim Project"
+    },
+    {
+        "brandCode": "D47",
+        "brandName": "Deuter"
+    },
+    {
+        "brandCode": "D29",
+        "brandName": "Diadora"
+    },
+    {
+        "brandCode": "DI5",
+        "brandName": "Didriksons"
+    },
+    {
+        "brandCode": "DI2",
+        "brandName": "Disney"
+    },
+    {
+        "brandCode": "DO8",
+        "brandName": "DOCKERS"
+    },
+    {
+        "brandCode": "DO2",
+        "brandName": "Dr. Martens"
+    },
+    {
+        "brandCode": "4DR",
+        "brandName": "DreiMaster"
+    },
+    {
+        "brandCode": "DR2",
+        "brandName": "DRYKORN"
+    },
+    {
+        "brandCode": "THM",
+        "brandName": "Duke"
+    },
+    {
+        "brandCode": "DU5",
+        "brandName": "Dune London"
+    },
+    {
+        "brandCode": "EA7",
+        "brandName": "EA7 Emporio Armani"
+    },
+    {
+        "brandCode": "EA0",
+        "brandName": "Each x Other"
+    },
+    {
+        "brandCode": "EC1",
+        "brandName": "ECCO"
+    },
+    {
+        "brandCode": "ECD",
+        "brandName": "Ecoalf"
+    },
+    {
+        "brandCode": "ED1",
+        "brandName": "edc by Esprit"
+    },
+    {
+        "brandCode": "EL9",
+        "brandName": "Ellesse"
+    },
+    {
+        "brandCode": "ES2",
+        "brandName": "Espadrij l´originale"
+    },
+    {
+        "brandCode": "ES1",
+        "brandName": "Esprit"
+    },
+    {
+        "brandCode": "ES4",
+        "brandName": "Esprit Collection"
+    },
+    {
+        "brandCode": "2ET",
+        "brandName": "Eterna"
+    },
+    {
+        "brandCode": "ET1",
+        "brandName": "Etnies"
+    },
+    {
+        "brandCode": "1F2",
+        "brandName": "F2"
+    },
+    {
+        "brandCode": "F1W",
+        "brandName": "FADED"
+    },
+    {
+        "brandCode": "FA7",
+        "brandName": "Faguo"
+    },
+    {
+        "brandCode": "F0Q",
+        "brandName": "Family First"
+    },
+    {
+        "brandCode": "FAV",
+        "brandName": "Fanatics"
+    },
+    {
+        "brandCode": "FA5",
+        "brandName": "Farah"
+    },
+    {
+        "brandCode": "1FI",
+        "brandName": "Fila"
+    },
+    {
+        "brandCode": "FIB",
+        "brandName": "Filling Pieces"
+    },
+    {
+        "brandCode": "FI3",
+        "brandName": "FitFlop"
+    },
+    {
+        "brandCode": "F53",
+        "brandName": "FRAAS"
+    },
+    {
+        "brandCode": "FR3",
+        "brandName": "Franklin & Marshall"
+    },
+    {
+        "brandCode": "F15",
+        "brandName": "Fratelli Rossetti"
+    },
+    {
+        "brandCode": "FRG",
+        "brandName": "Fresh 'n Rebel"
+    },
+    {
+        "brandCode": "GA3",
+        "brandName": "GANT"
+    },
+    {
+        "brandCode": "GP0",
+        "brandName": "GAP"
+    },
+    {
+        "brandCode": "G12",
+        "brandName": "Garcia"
+    },
+    {
+        "brandCode": "G16",
+        "brandName": "GAS"
+    },
+    {
+        "brandCode": "GD2",
+        "brandName": "Gaudi"
+    },
+    {
+        "brandCode": "GE9",
+        "brandName": "Geospirit"
+    },
+    {
+        "brandCode": "GE1",
+        "brandName": "Geox"
+    },
+    {
+        "brandCode": "0GD",
+        "brandName": "Giorgio Di Mare"
+    },
+    {
+        "brandCode": "GI9",
+        "brandName": "Giro"
+    },
+    {
+        "brandCode": "GL5",
+        "brandName": "Globe"
+    },
+    {
+        "brandCode": "GO2",
+        "brandName": "Goosecraft"
+    },
+    {
+        "brandCode": "GB6",
+        "brandName": "Gordon and Bros"
+    },
+    {
+        "brandCode": "GU1",
+        "brandName": "Guess"
+    },
+    {
+        "brandCode": "HT6",
+        "brandName": "Hackett London"
+    },
+    {
+        "brandCode": "H27",
+        "brandName": "Haglöfs"
+    },
+    {
+        "brandCode": "HAJ",
+        "brandName": "HALO"
+    },
+    {
+        "brandCode": "HAB",
+        "brandName": "Happy Plugs"
+    },
+    {
+        "brandCode": "H6A",
+        "brandName": "Harmont & Blaine Jeans"
+    },
+    {
+        "brandCode": "HAN",
+        "brandName": "Hartmann"
+    },
+    {
+        "brandCode": "HE7",
+        "brandName": "Head"
+    },
+    {
+        "brandCode": "H5N",
+        "brandName": "Heathe"
+    },
+    {
+        "brandCode": "DA8",
+        "brandName": "Hechter Paris"
+    },
+    {
+        "brandCode": "HE6",
+        "brandName": "Helly Hansen"
+    },
+    {
+        "brandCode": "H15",
+        "brandName": "Herschel"
+    },
+    {
+        "brandCode": "H07",
+        "brandName": "hessnatur"
+    },
+    {
+        "brandCode": "HI2",
+        "brandName": "HI-TEC"
+    },
+    {
+        "brandCode": "H8A",
+        "brandName": "Highsnobiety"
+    },
+    {
+        "brandCode": "H04",
+        "brandName": "Hollister Co."
+    },
+    {
+        "brandCode": "HOO",
+        "brandName": "Houdini"
+    },
+    {
+        "brandCode": "H2S",
+        "brandName": "HOUSE OF PAUL ROSEN"
+    },
+    {
+        "brandCode": "H0H",
+        "brandName": "HUF"
+    },
+    {
+        "brandCode": "HU7",
+        "brandName": "HUGO"
+    },
+    {
+        "brandCode": "HU3",
+        "brandName": "Hummel"
+    },
+    {
+        "brandCode": "HUD",
+        "brandName": "Hummel Hive"
+    },
+    {
+        "brandCode": "HU1",
+        "brandName": "Hunter ORIGINAL"
+    },
+    {
+        "brandCode": "HU8",
+        "brandName": "Hurley"
+    },
+    {
+        "brandCode": "HY5",
+        "brandName": "Hype"
+    },
+    {
+        "brandCode": "IC3",
+        "brandName": "Iceberg"
+    },
+    {
+        "brandCode": "IC6",
+        "brandName": "ICEBOUND"
+    },
+    {
+        "brandCode": "CE6",
+        "brandName": "Icebreaker"
+    },
+    {
+        "brandCode": "IC1",
+        "brandName": "Icepeak"
+    },
+    {
+        "brandCode": "IC7",
+        "brandName": "Iconic Collection"
+    },
+    {
+        "brandCode": "IE0",
+        "brandName": "iets frans..."
+    },
+    {
+        "brandCode": "IL5",
+        "brandName": "Illusive London Juniors"
+    },
+    {
+        "brandCode": "IJ0",
+        "brandName": "INDICODE JEANS"
+    },
+    {
+        "brandCode": "DH0",
+        "brandName": "Isaac Dewhirst"
+    },
+    {
+        "brandCode": "IV2",
+        "brandName": "Ivy Park"
+    },
+    {
+        "brandCode": "JC4",
+        "brandName": "J.CREW"
+    },
+    {
+        "brandCode": "JL1",
+        "brandName": "J.LINDEBERG"
+    },
+    {
+        "brandCode": "5JA",
+        "brandName": "Jack"
+    },
+    {
+        "brandCode": "JA2",
+        "brandName": "Jack & Jones"
+    },
+    {
+        "brandCode": "JA4",
+        "brandName": "Jack Wolfskin"
+    },
+    {
+        "brandCode": "JAL",
+        "brandName": "Jack's Sportswear"
+    },
+    {
+        "brandCode": "J3Z",
+        "brandName": "Jacker"
+    },
+    {
+        "brandCode": "1JB",
+        "brandName": "Jacques Britt"
+    },
+    {
+        "brandCode": "JL0",
+        "brandName": "Jaded London"
+    },
+    {
+        "brandCode": "4JE",
+        "brandName": "JEEP"
+    },
+    {
+        "brandCode": "JI6",
+        "brandName": "Jimmy Sanders"
+    },
+    {
+        "brandCode": "JOY",
+        "brandName": "Johnny Bigg"
+    },
+    {
+        "brandCode": "JO9",
+        "brandName": "JOOP!"
+    },
+    {
+        "brandCode": "JO5",
+        "brandName": "Jost"
+    },
+    {
+        "brandCode": "JU2",
+        "brandName": "Junk De Luxe"
+    },
+    {
+        "brandCode": "J04",
+        "brandName": "Just Junkies"
+    },
+    {
+        "brandCode": "KS1",
+        "brandName": "K-SWISS"
+    },
+    {
+        "brandCode": "KW1",
+        "brandName": "K-Way"
+    },
+    {
+        "brandCode": "KA6",
+        "brandName": "Kamik"
+    },
+    {
+        "brandCode": "KAI",
+        "brandName": "Kaotiko"
+    },
+    {
+        "brandCode": "10K",
+        "brandName": "Kappa"
+    },
+    {
+        "brandCode": "K48",
+        "brandName": "KARL LAGERFELD"
+    },
+    {
+        "brandCode": "K3W",
+        "brandName": "Karl Lagerfeld Jeans"
+    },
+    {
+        "brandCode": "KE5",
+        "brandName": "Keen"
+    },
+    {
+        "brandCode": "K2Z",
+        "brandName": "KIABI"
+    },
+    {
+        "brandCode": "KI1",
+        "brandName": "Kickers"
+    },
+    {
+        "brandCode": "KIT",
+        "brandName": "Kigili"
+    },
+    {
+        "brandCode": "K13",
+        "brandName": "Killtec"
+    },
+    {
+        "brandCode": "KN2",
+        "brandName": "KnowledgeCotton Apparel"
+    },
+    {
+        "brandCode": "KOA",
+        "brandName": "Koton"
+    },
+    {
+        "brandCode": "KR1",
+        "brandName": "Kronstadt"
+    },
+    {
+        "brandCode": "KS3",
+        "brandName": "Ksubi"
+    },
+    {
+        "brandCode": "LAN",
+        "brandName": "La Sportiva"
+    },
+    {
+        "brandCode": "LA2",
+        "brandName": "Lacoste"
+    },
+    {
+        "brandCode": "L06",
+        "brandName": "Lacoste Sport"
+    },
+    {
+        "brandCode": "LAW",
+        "brandName": "Ladron De Jeans"
+    },
+    {
+        "brandCode": "9LA",
+        "brandName": "Laguiole"
+    },
+    {
+        "brandCode": "LA8",
+        "brandName": "Lakai"
+    },
+    {
+        "brandCode": "5LA",
+        "brandName": "LANCASTER"
+    },
+    {
+        "brandCode": "LV7",
+        "brandName": "LANVIN"
+    },
+    {
+        "brandCode": "LE1",
+        "brandName": "le coq sportif"
+    },
+    {
+        "brandCode": "LE4",
+        "brandName": "Lee"
+    },
+    {
+        "brandCode": "LME",
+        "brandName": "LEGACY STUDIOS"
+    },
+    {
+        "brandCode": "LEC",
+        "brandName": "Legends"
+    },
+    {
+        "brandCode": "LEP",
+        "brandName": "Les Deux"
+    },
+    {
+        "brandCode": "LE2",
+        "brandName": "Levi's®"
+    },
+    {
+        "brandCode": "LGU",
+        "brandName": "Levi's® Gold Tab"
+    },
+    {
+        "brandCode": "L0M",
+        "brandName": "Levi's® Plus"
+    },
+    {
+        "brandCode": "LEY",
+        "brandName": "Levi's® Skateboarding"
+    },
+    {
+        "brandCode": "LIQ",
+        "brandName": "Libertine-Libertine"
+    },
+    {
+        "brandCode": "LI3",
+        "brandName": "Liebeskind Berlin"
+    },
+    {
+        "brandCode": "LIK",
+        "brandName": "Liquor N Poker"
+    },
+    {
+        "brandCode": "LL1",
+        "brandName": "Lloyd"
+    },
+    {
+        "brandCode": "1LJ",
+        "brandName": "LOIS Jeans"
+    },
+    {
+        "brandCode": "L1R",
+        "brandName": "Lounge Nine"
+    },
+    {
+        "brandCode": "LU9",
+        "brandName": "Luhta"
+    },
+    {
+        "brandCode": "LY2",
+        "brandName": "Lyle & Scott"
+    },
+    {
+        "brandCode": "M7F",
+        "brandName": "MAGNUSSEN"
+    },
+    {
+        "brandCode": "M4Z",
+        "brandName": "Maison Héritage"
+    },
+    {
+        "brandCode": "MK9",
+        "brandName": "Makia"
+    },
+    {
+        "brandCode": "M73",
+        "brandName": "Mammut"
+    },
+    {
+        "brandCode": "M13",
+        "brandName": "Mandarina Duck"
+    },
+    {
+        "brandCode": "M91",
+        "brandName": "Mango"
+    },
+    {
+        "brandCode": "MN1",
+        "brandName": "mano"
+    },
+    {
+        "brandCode": "MA3",
+        "brandName": "Marc O'Polo"
+    },
+    {
+        "brandCode": "M16",
+        "brandName": "Marc O'Polo Accessories"
+    },
+    {
+        "brandCode": "OP5",
+        "brandName": "Marc O'Polo DENIM"
+    },
+    {
+        "brandCode": "2GU",
+        "brandName": "MARCIANO BY GUESS"
+    },
+    {
+        "brandCode": "M31",
+        "brandName": "Marco Tozzi"
+    },
+    {
+        "brandCode": "M4K",
+        "brandName": "Marimekko"
+    },
+    {
+        "brandCode": "QM4",
+        "brandName": "Marks & Spencer"
+    },
+    {
+        "brandCode": "MV2",
+        "brandName": "Marvel"
+    },
+    {
+        "brandCode": "MR0",
+        "brandName": "Maserati"
+    },
+    {
+        "brandCode": "M38",
+        "brandName": "Mason's"
+    },
+    {
+        "brandCode": "M60",
+        "brandName": "Matinique"
+    },
+    {
+        "brandCode": "MC2",
+        "brandName": "McGregor"
+    },
+    {
+        "brandCode": "ME5",
+        "brandName": "Meltin Pot"
+    },
+    {
+        "brandCode": "ME2",
+        "brandName": "Melvin & Hamilton"
+    },
+    {
+        "brandCode": "MEF",
+        "brandName": "Mennace"
+    },
+    {
+        "brandCode": "ME1",
+        "brandName": "Merrell"
+    },
+    {
+        "brandCode": "ME4",
+        "brandName": "Mexx"
+    },
+    {
+        "brandCode": "MIZ",
+        "brandName": "MICHAELIS"
+    },
+    {
+        "brandCode": "MI4",
+        "brandName": "Minimum"
+    },
+    {
+        "brandCode": "M0M",
+        "brandName": "Mister Tee"
+    },
+    {
+        "brandCode": "MN8",
+        "brandName": "Mitchell & Ness"
+    },
+    {
+        "brandCode": "21M",
+        "brandName": "Mo"
+    },
+    {
+        "brandCode": "MOX",
+        "brandName": "MODO by Roncato"
+    },
+    {
+        "brandCode": "MT7",
+        "brandName": "mtng"
+    },
+    {
+        "brandCode": "MU3",
+        "brandName": "Mustang"
+    },
+    {
+        "brandCode": "NA5",
+        "brandName": "NAF NAF"
+    },
+    {
+        "brandCode": "NA6",
+        "brandName": "Napapijri"
+    },
+    {
+        "brandCode": "NY2",
+        "brandName": "Native Youth"
+    },
+    {
+        "brandCode": "N00",
+        "brandName": "Nautica"
+    },
+    {
+        "brandCode": "NAU",
+        "brandName": "NAUTICA COMPETITION"
+    },
+    {
+        "brandCode": "NE2",
+        "brandName": "New Balance"
+    },
+    {
+        "brandCode": "NE3",
+        "brandName": "New Era"
+    },
+    {
+        "brandCode": "NIJ",
+        "brandName": "Night Addict"
+    },
+    {
+        "brandCode": "N12",
+        "brandName": "Nike Performance"
+    },
+    {
+        "brandCode": "NS4",
+        "brandName": "Nike SB"
+    },
+    {
+        "brandCode": "NI1",
+        "brandName": "Nike Sportswear"
+    },
+    {
+        "brandCode": "NIM",
+        "brandName": "Nike Swim"
+    },
+    {
+        "brandCode": "NI9",
+        "brandName": "Nitro"
+    },
+    {
+        "brandCode": "NOK",
+        "brandName": "NO EXCESS"
+    },
+    {
+        "brandCode": "NOU",
+        "brandName": "Nominal"
+    },
+    {
+        "brandCode": "N03",
+        "brandName": "North 56°4"
+    },
+    {
+        "brandCode": "NO6",
+        "brandName": "North Sails"
+    },
+    {
+        "brandCode": "R1V",
+        "brandName": "NY CONCEPT"
+    },
+    {
+        "brandCode": "NE6",
+        "brandName": "NZA New Zealand Auckland"
+    },
+    {
+        "brandCode": "ON5",
+        "brandName": "O'Neill"
+    },
+    {
+        "brandCode": "OA3",
+        "brandName": "Oakley"
+    },
+    {
+        "brandCode": "OD1",
+        "brandName": "ODLO"
+    },
+    {
+        "brandCode": "OF8",
+        "brandName": "oftt"
+    },
+    {
+        "brandCode": "OL0",
+        "brandName": "OLYMP No. Six"
+    },
+    {
+        "brandCode": "TI3",
+        "brandName": "Onitsuka Tiger"
+    },
+    {
+        "brandCode": "ORQ",
+        "brandName": "ORIGINALS BY JACK & JONES"
+    },
+    {
+        "brandCode": "SR2",
+        "brandName": "Osprey"
+    },
+    {
+        "brandCode": "1OT",
+        "brandName": "Otto Kern"
+    },
+    {
+        "brandCode": "P12",
+        "brandName": "Pajar"
+    },
+    {
+        "brandCode": "P13",
+        "brandName": "Palladium"
+    },
+    {
+        "brandCode": "PJL",
+        "brandName": "PANGAIA"
+    },
+    {
+        "brandCode": "PA4",
+        "brandName": "Pantofola d'Oro"
+    },
+    {
+        "brandCode": "PAN",
+        "brandName": "Park Lane"
+    },
+    {
+        "brandCode": "PE4",
+        "brandName": "Peak Performance"
+    },
+    {
+        "brandCode": "PE8",
+        "brandName": "Penfield"
+    },
+    {
+        "brandCode": "P68",
+        "brandName": "Petrol Industries"
+    },
+    {
+        "brandCode": "PB7",
+        "brandName": "Peuterey"
+    },
+    {
+        "brandCode": "PIM",
+        "brandName": "Piazza Italia"
+    },
+    {
+        "brandCode": "PI9",
+        "brandName": "Pier One"
+    },
+    {
+        "brandCode": "PI5",
+        "brandName": "Pikolinos"
+    },
+    {
+        "brandCode": "PX8",
+        "brandName": "POC"
+    },
+    {
+        "brandCode": "PO3",
+        "brandName": "Polar"
+    },
+    {
+        "brandCode": "6PO",
+        "brandName": "Polaroid"
+    },
+    {
+        "brandCode": "POT",
+        "brandName": "Polo Club"
+    },
+    {
+        "brandCode": "PO2",
+        "brandName": "Polo Ralph Lauren"
+    },
+    {
+        "brandCode": "P2C",
+        "brandName": "Polythene Optics"
+    },
+    {
+        "brandCode": "PRT",
+        "brandName": "PRAY"
+    },
+    {
+        "brandCode": "P48",
+        "brandName": "Prince"
+    },
+    {
+        "brandCode": "PUC",
+        "brandName": "PULL&BEAR"
+    },
+    {
+        "brandCode": "PU1",
+        "brandName": "Puma"
+    },
+    {
+        "brandCode": "PY1",
+        "brandName": "PYUA"
+    },
+    {
+        "brandCode": "QS1",
+        "brandName": "QS"
+    },
+    {
+        "brandCode": "QU1",
+        "brandName": "Quiksilver"
+    },
+    {
+        "brandCode": "RI0",
+        "brandName": "Rains"
+    },
+    {
+        "brandCode": "R9J",
+        "brandName": "Rapha"
+    },
+    {
+        "brandCode": "RET",
+        "brandName": "Red Bull SPECT Eyewear"
+    },
+    {
+        "brandCode": "8RB",
+        "brandName": "Redbull"
+    },
+    {
+        "brandCode": "R06",
+        "brandName": "Redefined Rebel"
+    },
+    {
+        "brandCode": "RE5",
+        "brandName": "Reebok"
+    },
+    {
+        "brandCode": "RE0",
+        "brandName": "Reebok Classic"
+    },
+    {
+        "brandCode": "R23",
+        "brandName": "Regatta"
+    },
+    {
+        "brandCode": "RM7",
+        "brandName": "Reima"
+    },
+    {
+        "brandCode": "RE3",
+        "brandName": "Replay"
+    },
+    {
+        "brandCode": "REW",
+        "brandName": "Rethink Stat"
+    },
+    {
+        "brandCode": "R31",
+        "brandName": "Reusch"
+    },
+    {
+        "brandCode": "RE6",
+        "brandName": "REVOLUTION"
+    },
+    {
+        "brandCode": "RI9",
+        "brandName": "River Island"
+    },
+    {
+        "brandCode": "RV1",
+        "brandName": "RIVIERAS"
+    },
+    {
+        "brandCode": "1RM",
+        "brandName": "Rivièra Maison"
+    },
+    {
+        "brandCode": "R13",
+        "brandName": "Roeckl"
+    },
+    {
+        "brandCode": "4RO",
+        "brandName": "Roncato"
+    },
+    {
+        "brandCode": "ROJ",
+        "brandName": "Rossignol"
+    },
+    {
+        "brandCode": "RUA",
+        "brandName": "Rukka"
+    },
+    {
+        "brandCode": "SO2",
+        "brandName": "s.Oliver"
+    },
+    {
+        "brandCode": "S20",
+        "brandName": "Salewa"
+    },
+    {
+        "brandCode": "SA5",
+        "brandName": "Salomon"
+    },
+    {
+        "brandCode": "SZ0",
+        "brandName": "Salsa Jeans"
+    },
+    {
+        "brandCode": "SA6",
+        "brandName": "Samsonite"
+    },
+    {
+        "brandCode": "SA3",
+        "brandName": "Samsøe Samsøe"
+    },
+    {
+        "brandCode": "S23",
+        "brandName": "Saucony"
+    },
+    {
+        "brandCode": "SA7",
+        "brandName": "Saucony Originals"
+    },
+    {
+        "brandCode": "S6S",
+        "brandName": "Saye"
+    },
+    {
+        "brandCode": "S59",
+        "brandName": "Schiesser"
+    },
+    {
+        "brandCode": "S37",
+        "brandName": "Schott"
+    },
+    {
+        "brandCode": "SC7",
+        "brandName": "Schöffel"
+    },
+    {
+        "brandCode": "SC3",
+        "brandName": "Scotch & Soda"
+    },
+    {
+        "brandCode": "S5E",
+        "brandName": "Sean John"
+    },
+    {
+        "brandCode": "SE2",
+        "brandName": "Sebago"
+    },
+    {
+        "brandCode": "3SE",
+        "brandName": "Seidensticker"
+    },
+    {
+        "brandCode": "SE6",
+        "brandName": "Selected Homme"
+    },
+    {
+        "brandCode": "S16",
+        "brandName": "Sergio Tacchini"
+    },
+    {
+        "brandCode": "SHF",
+        "brandName": "Shelby & Sons"
+    },
+    {
+        "brandCode": "OR3",
+        "brandName": "Shine Original"
+    },
+    {
+        "brandCode": "SIF",
+        "brandName": "SIKSILK"
+    },
+    {
+        "brandCode": "SI2",
+        "brandName": "Sioux"
+    },
+    {
+        "brandCode": "7SI",
+        "brandName": "Sisley"
+    },
+    {
+        "brandCode": "QS0",
+        "brandName": "Sister Jane"
+    },
+    {
+        "brandCode": "SK1",
+        "brandName": "Skechers"
+    },
+    {
+        "brandCode": "WO9",
+        "brandName": "Smartwool"
+    },
+    {
+        "brandCode": "1SM",
+        "brandName": "Smith Optics"
+    },
+    {
+        "brandCode": "SO4",
+        "brandName": "Solid"
+    },
+    {
+        "brandCode": "SO6",
+        "brandName": "Sorel"
+    },
+    {
+        "brandCode": "S1X",
+        "brandName": "SOULSTAR"
+    },
+    {
+        "brandCode": "1SP",
+        "brandName": "Speedo"
+    },
+    {
+        "brandCode": "FI0",
+        "brandName": "Springfield"
+    },
+    {
+        "brandCode": "SY0",
+        "brandName": "Spyder"
+    },
+    {
+        "brandCode": "S0M",
+        "brandName": "Star Wars"
+    },
+    {
+        "brandCode": "X11",
+        "brandName": "Starter"
+    },
+    {
+        "brandCode": "S3D",
+        "brandName": "Starter Black Label"
+    },
+    {
+        "brandCode": "OA4",
+        "brandName": "State of Art"
+    },
+    {
+        "brandCode": "S57",
+        "brandName": "Stefanel"
+    },
+    {
+        "brandCode": "OC4",
+        "brandName": "Stockerpoint"
+    },
+    {
+        "brandCode": "7ST",
+        "brandName": "Stones"
+    },
+    {
+        "brandCode": "S43",
+        "brandName": "Strellson"
+    },
+    {
+        "brandCode": "S31",
+        "brandName": "Strellson Sportswear"
+    },
+    {
+        "brandCode": "S8R",
+        "brandName": "Studio Seidensticker"
+    },
+    {
+        "brandCode": "SU3",
+        "brandName": "Suit"
+    },
+    {
+        "brandCode": "SU2",
+        "brandName": "Superdry"
+    },
+    {
+        "brandCode": "SU1",
+        "brandName": "Superga"
+    },
+    {
+        "brandCode": "T59",
+        "brandName": "Tailored Originals"
+    },
+    {
+        "brandCode": "TAJ",
+        "brandName": "Tanuki"
+    },
+    {
+        "brandCode": "TAS",
+        "brandName": "TATUUM"
+    },
+    {
+        "brandCode": "TS1",
+        "brandName": "Teddy Smith"
+    },
+    {
+        "brandCode": "TE2",
+        "brandName": "Teva"
+    },
+    {
+        "brandCode": "2TH",
+        "brandName": "The Bridge"
+    },
+    {
+        "brandCode": "THP",
+        "brandName": "Thule"
+    },
+    {
+        "brandCode": "TI1",
+        "brandName": "Timberland"
+    },
+    {
+        "brandCode": "TO2",
+        "brandName": "TOM TAILOR"
+    },
+    {
+        "brandCode": "TO7",
+        "brandName": "TOM TAILOR DENIM"
+    },
+    {
+        "brandCode": "TOO",
+        "brandName": "TOM TAILOR MEN PLUS"
+    },
+    {
+        "brandCode": "TO1",
+        "brandName": "Tommy Hilfiger"
+    },
+    {
+        "brandCode": "TOB",
+        "brandName": "Tommy Jeans"
+    },
+    {
+        "brandCode": "TO3",
+        "brandName": "TOMS"
+    },
+    {
+        "brandCode": "TRU",
+        "brandName": "Trendyol"
+    },
+    {
+        "brandCode": "TU9",
+        "brandName": "TUFFSKULL"
+    },
+    {
+        "brandCode": "1TU",
+        "brandName": "Tumi"
+    },
+    {
+        "brandCode": "TWC",
+        "brandName": "Twisted Tailor"
+    },
+    {
+        "brandCode": "US2",
+        "brandName": "U.S. Polo Assn."
+    },
+    {
+        "brandCode": "UG1",
+        "brandName": "UGG"
+    },
+    {
+        "brandCode": "UNL",
+        "brandName": "Uncommon Souls"
+    },
+    {
+        "brandCode": "UN2",
+        "brandName": "Under Armour"
+    },
+    {
+        "brandCode": "UR6",
+        "brandName": "Urban Classics"
+    },
+    {
+        "brandCode": "UV1",
+        "brandName": "Uvex"
+    },
+    {
+        "brandCode": "VAQ",
+        "brandName": "Van Gils"
+    },
+    {
+        "brandCode": "VA2",
+        "brandName": "Vans"
+    },
+    {
+        "brandCode": "VA4",
+        "brandName": "Vaude"
+    },
+    {
+        "brandCode": "VE1",
+        "brandName": "Vero Moda"
+    },
+    {
+        "brandCode": "VEY",
+        "brandName": "Vero Moda Maternity"
+    },
+    {
+        "brandCode": "VB0",
+        "brandName": "Vibram Fivefingers"
+    },
+    {
+        "brandCode": "V14",
+        "brandName": "Victorinox"
+    },
+    {
+        "brandCode": "VI1",
+        "brandName": "Viking"
+    },
+    {
+        "brandCode": "V20",
+        "brandName": "Vingino"
+    },
+    {
+        "brandCode": "VIO",
+        "brandName": "Vintage Supply"
+    },
+    {
+        "brandCode": "V19",
+        "brandName": "Volcom"
+    },
+    {
+        "brandCode": "WEA",
+        "brandName": "We are Cph"
+    },
+    {
+        "brandCode": "WF5",
+        "brandName": "WE Fashion"
+    },
+    {
+        "brandCode": "WEB",
+        "brandName": "Weekday"
+    },
+    {
+        "brandCode": "WE1",
+        "brandName": "WeSC"
+    },
+    {
+        "brandCode": "WH1",
+        "brandName": "Whyred"
+    },
+    {
+        "brandCode": "WR1",
+        "brandName": "Wrangler"
+    },
+    {
+        "brandCode": "WR8",
+        "brandName": "WRSTBHVR"
+    },
+    {
+        "brandCode": "YEE",
+        "brandName": "Yeaz"
+    },
+    {
+        "brandCode": "YOJ",
+        "brandName": "YOUNG POETS"
+    },
+    {
+        "brandCode": "YO1",
+        "brandName": "YOURTURN"
+    },
+    {
+        "brandCode": "Z10",
+        "brandName": "Ziener"
+    },
+    {
+        "brandCode": "ZI1",
+        "brandName": "Zign"
+    },
+    {
+        "brandCode": "ZI4",
+        "brandName": "Zign Studio"
+    },
+    {
+        "brandCode": "ZO8",
+        "brandName": "ZO! Home"
+    }
+]

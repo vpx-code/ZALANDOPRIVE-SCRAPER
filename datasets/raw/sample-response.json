@@ -1,0 +1,2562 @@
+{
+    "configs": [
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 127770960,
+            "campaignIdentifier": "ZZO2T1G",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/d551306c08244c76ade256e95d961e37/cd21444d1dac4e66ad7cc15c5618b27d.jpg",
+                "spp-media-p1/469770af6a6a405d8b3f9472ab73d5f4/c3ba092188234b1095fdc3cf6bc2ca1b.jpg",
+                "spp-media-p1/04597fdc546c4fe3aa493f638115c983/61de7aa05b064e93b49103a7bd77fff8.jpg",
+                "spp-media-p1/fe0a6dc13f5c4b6c944a1607c89e5f06/058b3064b40744c68b6a0eefc44af8c6.jpg",
+                "spp-media-p1/13d12caa4f4346639b3acd29ef94989b/1f3add1e76d644a492c34080e326e09f.jpg",
+                "spp-media-p1/b9d96b0dcff14c93b04a785708f7f72e/299f8ac293504e3581e683411661884e.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/d551306c08244c76ade256e95d961e37/cd21444d1dac4e66ad7cc15c5618b27d.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/469770af6a6a405d8b3f9472ab73d5f4/c3ba092188234b1095fdc3cf6bc2ca1b.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/04597fdc546c4fe3aa493f638115c983/61de7aa05b064e93b49103a7bd77fff8.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/fe0a6dc13f5c4b6c944a1607c89e5f06/058b3064b40744c68b6a0eefc44af8c6.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/13d12caa4f4346639b3acd29ef94989b/1f3add1e76d644a492c34080e326e09f.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/b9d96b0dcff14c93b04a785708f7f72e/299f8ac293504e3581e683411661884e.jpg"
+                }
+            ],
+            "nameCategoryTag": "Sandalias de dedo",
+            "nameColor": "negro",
+            "colorFamilyKey": 800,
+            "colorKey": 802,
+            "nameShop": "UNISEX",
+            "price": 3699,
+            "savings": 55,
+            "specialPrice": 1650,
+            "similarPrices": true,
+            "silhouette": "backless_slipper",
+            "sku": "PI915G00F-Q11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 3699,
+                    "specialPrice": 1650,
+                    "sku": "PI915G00F-Q110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2T1G/categories/127770960/articles/PI915G00F-Q11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-08T21:59:59Z",
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 150750486,
+            "campaignIdentifier": "ZZO2T1G",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/046e4d2b91d744c58e9a0c919c3febe1/f2bd73d971c34cd8ae6f4418bbe92136.jpg",
+                "spp-media-p1/72006ad9dcd543c08111ad76ec531c41/af57f0efe4334103a5fed2ec75fbbe5b.jpg",
+                "spp-media-p1/d68b6a287d794ae4b457b4c4bdf9bac6/ea9cc3c53984483c8db1bdcc3c18019f.jpg",
+                "spp-media-p1/c84a2e1fe42a4b5496fdc619dfd19686/938c68772b7145f1b1ddb9e3c9531dc6.jpg",
+                "spp-media-p1/52ac9b95bcbb4cac80db65b295c7358a/5e0051f956b1475b8d57e2c01756d523.jpg",
+                "spp-media-p1/c61ad27749984e6e9641fb06d9a037f2/4020db0fccf54c7b97c96b7a511d86a8.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/046e4d2b91d744c58e9a0c919c3febe1/f2bd73d971c34cd8ae6f4418bbe92136.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/72006ad9dcd543c08111ad76ec531c41/af57f0efe4334103a5fed2ec75fbbe5b.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/d68b6a287d794ae4b457b4c4bdf9bac6/ea9cc3c53984483c8db1bdcc3c18019f.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/c84a2e1fe42a4b5496fdc619dfd19686/938c68772b7145f1b1ddb9e3c9531dc6.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/52ac9b95bcbb4cac80db65b295c7358a/5e0051f956b1475b8d57e2c01756d523.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/c61ad27749984e6e9641fb06d9a037f2/4020db0fccf54c7b97c96b7a511d86a8.jpg"
+                }
+            ],
+            "nameCategoryTag": "Sandalias planas",
+            "nameColor": "azul marino",
+            "colorFamilyKey": 500,
+            "colorKey": 503,
+            "nameShop": "LEATHER UNISEX",
+            "price": 4399,
+            "savings": 54,
+            "specialPrice": 2000,
+            "similarPrices": true,
+            "silhouette": "backless_slipper",
+            "sku": "PI915G006-K11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 4399,
+                    "specialPrice": 2000,
+                    "sku": "PI915G006-K110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2T1G/categories/150750486/articles/PI915G006-K11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-08T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "PI915G006-O11",
+                    "colorKey": 703,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 167133080,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/852da801e2a036419cbd23723fc8f807/ec5f1e76ff9945e3a237c78298b404b8.jpg",
+                "spp-media-p1/55011c04fecf393d92c8e129f525e86c/ab5cbd7acee24999906ebe55251ad5ea.jpg",
+                "spp-media-p1/66d94145e2723605a30f36b6d7ff7427/7e077ed70ce54cb49199963da195d601.jpg",
+                "spp-media-p1/a0e8ab214b1b3c899db0c42fdfac01a2/4f1c7dae0cbb47efaca02a71fb79d125.jpg",
+                "spp-media-p1/e27fcefd80793543a66b4566545121b2/fd211765e40f4b37a943b2202a072e86.jpg",
+                "spp-media-p1/46ae1849b01936399f5e4e8779b57c9b/e0d22095d1484315bd44e53c8d53093e.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/852da801e2a036419cbd23723fc8f807/ec5f1e76ff9945e3a237c78298b404b8.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/55011c04fecf393d92c8e129f525e86c/ab5cbd7acee24999906ebe55251ad5ea.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/66d94145e2723605a30f36b6d7ff7427/7e077ed70ce54cb49199963da195d601.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a0e8ab214b1b3c899db0c42fdfac01a2/4f1c7dae0cbb47efaca02a71fb79d125.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/e27fcefd80793543a66b4566545121b2/fd211765e40f4b37a943b2202a072e86.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/46ae1849b01936399f5e4e8779b57c9b/e0d22095d1484315bd44e53c8d53093e.jpg"
+                }
+            ],
+            "nameCategoryTag": "Alpargatas",
+            "nameColor": "blanco",
+            "colorFamilyKey": 0,
+            "colorKey": 1,
+            "nameShop": "UNISEX",
+            "price": 2199,
+            "savings": 56,
+            "specialPrice": 950,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI915C000-A11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 2199,
+                    "specialPrice": 950,
+                    "sku": "PI915C000-A110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/167133080/articles/PI915C000-A11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "PI915C000-G11",
+                    "colorKey": 302,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-K13",
+                    "colorKey": 955,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-B11",
+                    "colorKey": 704,
+                    "stockStatus": "SOLD_OUT"
+                },
+                {
+                    "sku": "PI915C000-N11",
+                    "colorKey": 604,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-A12",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-Q11",
+                    "colorKey": 802,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 150750486,
+            "campaignIdentifier": "ZZO2T1G",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/543a6c189c2c4018827e0e2d6283a524/7148ce29105048cb811c89c718135306.jpg",
+                "spp-media-p1/932a32210cc34102b3b97e79667f4768/ccaa15e8486c43d2b87e19c3d70a50cb.jpg",
+                "spp-media-p1/fb093b1512b74f74a390b15093a70b37/add467423a5342dabdc133e7e832b23d.jpg",
+                "spp-media-p1/3097afcb7c9d4236a8aaaa28308ddd53/3688e1ace1ce4816bff7e93fbf4b38e6.jpg",
+                "spp-media-p1/ec8afda8e1f047bc87a444d7dadc338d/20b7a211b1ca42769a786e650c38d42a.jpg",
+                "spp-media-p1/26a9ce57f8a8477cb536a107926f980c/543a8afb29354d72bf6c24fda97d7553.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/543a6c189c2c4018827e0e2d6283a524/7148ce29105048cb811c89c718135306.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/932a32210cc34102b3b97e79667f4768/ccaa15e8486c43d2b87e19c3d70a50cb.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/fb093b1512b74f74a390b15093a70b37/add467423a5342dabdc133e7e832b23d.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/3097afcb7c9d4236a8aaaa28308ddd53/3688e1ace1ce4816bff7e93fbf4b38e6.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/ec8afda8e1f047bc87a444d7dadc338d/20b7a211b1ca42769a786e650c38d42a.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/26a9ce57f8a8477cb536a107926f980c/543a8afb29354d72bf6c24fda97d7553.jpg"
+                }
+            ],
+            "nameCategoryTag": "Sandalias planas",
+            "nameColor": "marrón oscuro",
+            "colorFamilyKey": 700,
+            "colorKey": 703,
+            "nameShop": "LEATHER UNISEX",
+            "price": 4399,
+            "savings": 54,
+            "specialPrice": 2000,
+            "similarPrices": true,
+            "silhouette": "backless_slipper",
+            "sku": "PI915G006-O11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 4399,
+                    "specialPrice": 2000,
+                    "sku": "PI915G006-O110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2T1G/categories/150750486/articles/PI915G006-O11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-08T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "PI915G006-K11",
+                    "colorKey": 503,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 167133080,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/8256381a087740c499e6e5cb955a7e96/370889eb8d504da5b372ff55a5b94969.jpg",
+                "spp-media-p1/94460ed86a954167845792deb290ccbe/058a9c37c96a4eda9f6212e484581f3e.jpg",
+                "spp-media-p1/97fb2c78ccc04d03a5c9508ef0e7845f/eeee95fb280743dba5b13ffece1d2eed.jpg",
+                "spp-media-p1/77f7f01da55745239eb779ee5a8ba328/1be0ba060d614e488b4bd0c45cd2f992.jpg",
+                "spp-media-p1/68b26a9042f54070a325854440b82202/511db68d7e2e44c7ba3ed7018cf7b9d4.jpg",
+                "spp-media-p1/5b0875ded0fc4b96a2faf21f288be940/ca9fad31ee57484dad5567352eb16e58.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/8256381a087740c499e6e5cb955a7e96/370889eb8d504da5b372ff55a5b94969.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/94460ed86a954167845792deb290ccbe/058a9c37c96a4eda9f6212e484581f3e.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/97fb2c78ccc04d03a5c9508ef0e7845f/eeee95fb280743dba5b13ffece1d2eed.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/77f7f01da55745239eb779ee5a8ba328/1be0ba060d614e488b4bd0c45cd2f992.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/68b26a9042f54070a325854440b82202/511db68d7e2e44c7ba3ed7018cf7b9d4.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/5b0875ded0fc4b96a2faf21f288be940/ca9fad31ee57484dad5567352eb16e58.jpg"
+                }
+            ],
+            "nameCategoryTag": "Alpargatas",
+            "nameColor": "rojo",
+            "colorFamilyKey": 300,
+            "colorKey": 302,
+            "nameShop": "UNISEX",
+            "price": 3099,
+            "savings": 56,
+            "specialPrice": 1350,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI915C000-G11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 3099,
+                    "specialPrice": 1350,
+                    "sku": "PI915C000-G110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/167133080/articles/PI915C000-G11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "PI915C000-K13",
+                    "colorKey": 955,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-B11",
+                    "colorKey": 704,
+                    "stockStatus": "SOLD_OUT"
+                },
+                {
+                    "sku": "PI915C000-N11",
+                    "colorKey": 604,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-A12",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-A11",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-Q11",
+                    "colorKey": 802,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony Originals",
+            "brandCode": "SA7",
+            "categoryId": 60457365,
+            "campaignIdentifier": "ZZO2TRJ",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/41c1e99ea1a44f9db0d1f60a7b3dfdd9/494a868db805464e8016b0a4358d7403.jpg",
+                "spp-media-p1/a23633d320e24214b12db539b226003b/7287b1a2ec554b948cd49e838623e1e4.jpg",
+                "spp-media-p1/539d47d0ca8d4a29af1a5791709e6c30/4796093d0ba6409587a34e5cebd747da.jpg",
+                "spp-media-p1/617b97973c874faca1d85832fd301292/b139754afc8c4fe781016bb94f094890.jpg",
+                "spp-media-p1/7bf667efa33046be87de7ec46178c818/91eeffed340e4239a4fd015bcda33120.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/41c1e99ea1a44f9db0d1f60a7b3dfdd9/494a868db805464e8016b0a4358d7403.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a23633d320e24214b12db539b226003b/7287b1a2ec554b948cd49e838623e1e4.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/539d47d0ca8d4a29af1a5791709e6c30/4796093d0ba6409587a34e5cebd747da.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/617b97973c874faca1d85832fd301292/b139754afc8c4fe781016bb94f094890.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/7bf667efa33046be87de7ec46178c818/91eeffed340e4239a4fd015bcda33120.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas",
+            "nameColor": "gris",
+            "colorFamilyKey": 100,
+            "colorKey": 102,
+            "nameShop": "SHADOW 6000",
+            "price": 16000,
+            "savings": 51,
+            "specialPrice": 7700,
+            "similarPrices": true,
+            "silhouette": "sneaker",
+            "sku": "ZZO2J2P25-C00",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 16000,
+                    "specialPrice": 7700,
+                    "sku": "ZZO2J2P25-C000014000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TRJ/categories/60457365/articles/ZZO2J2P25-C00"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-08T21:59:59Z",
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 167133080,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/9725585fdec04d38bbd98448592c2c81/72c058eac6254d3ca7dfcd64895f6fd7.jpg",
+                "spp-media-p1/5ed6154d832143e98797443200340a86/d5d60608eb9b432d87e5491dbc7d9859.jpg",
+                "spp-media-p1/d37e1593e6c147d986b0337c3a57765d/efb91b7353a54caf885e0ccbf455b3d6.jpg",
+                "spp-media-p1/00af93b418744c6ea90a12df082ecc2e/37f61750ec004994b62ae6ddcfad1a43.jpg",
+                "spp-media-p1/4fe9929b48134c16ae52064b9433e8d4/8b1ef3dce9d344a08d816af96a53324d.jpg",
+                "spp-media-p1/4426da96b00344d59fd5e1eca42807d8/0bfd3f8f153b42cfb646a3cdae4fc982.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/9725585fdec04d38bbd98448592c2c81/72c058eac6254d3ca7dfcd64895f6fd7.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/5ed6154d832143e98797443200340a86/d5d60608eb9b432d87e5491dbc7d9859.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/d37e1593e6c147d986b0337c3a57765d/efb91b7353a54caf885e0ccbf455b3d6.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/00af93b418744c6ea90a12df082ecc2e/37f61750ec004994b62ae6ddcfad1a43.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/4fe9929b48134c16ae52064b9433e8d4/8b1ef3dce9d344a08d816af96a53324d.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/4426da96b00344d59fd5e1eca42807d8/0bfd3f8f153b42cfb646a3cdae4fc982.jpg"
+                }
+            ],
+            "nameCategoryTag": "Alpargatas",
+            "nameColor": "verde oliva",
+            "colorFamilyKey": 650,
+            "colorKey": 604,
+            "nameShop": "UNISEX",
+            "price": 2199,
+            "savings": 54,
+            "specialPrice": 1000,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI915C000-N11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 2199,
+                    "specialPrice": 1000,
+                    "sku": "PI915C000-N110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/167133080/articles/PI915C000-N11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "PI915C000-G11",
+                    "colorKey": 302,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-K13",
+                    "colorKey": 955,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-B11",
+                    "colorKey": 704,
+                    "stockStatus": "SOLD_OUT"
+                },
+                {
+                    "sku": "PI915C000-A12",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-A11",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-Q11",
+                    "colorKey": 802,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony Originals",
+            "brandCode": "SA7",
+            "categoryId": 60457365,
+            "campaignIdentifier": "ZZO2TRJ",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/34f7fda904224ccaaa6594a601fdb434/2ee7b37bbbfd425abe2b8c6120c7caf4.jpg",
+                "spp-media-p1/b7cce482272046d6a498b8f9a7c63a67/23d12f5154e74e2fa980bd782029e379.jpg",
+                "spp-media-p1/efa3c07f0c8f422d9b8e2ac1a0e7a6ca/2060d3c9ca464f8f98471822d3b3f9c7.jpg",
+                "spp-media-p1/6f707c6b9ea2438abf26d1ad8815cf0e/4b3d604bbc2c45d2af5a722312cc85f4.jpg",
+                "spp-media-p1/2b88b3e6acdc4d648235607063f78536/ff7148889648435384a665ec601c0829.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/34f7fda904224ccaaa6594a601fdb434/2ee7b37bbbfd425abe2b8c6120c7caf4.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/b7cce482272046d6a498b8f9a7c63a67/23d12f5154e74e2fa980bd782029e379.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/efa3c07f0c8f422d9b8e2ac1a0e7a6ca/2060d3c9ca464f8f98471822d3b3f9c7.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/6f707c6b9ea2438abf26d1ad8815cf0e/4b3d604bbc2c45d2af5a722312cc85f4.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/2b88b3e6acdc4d648235607063f78536/ff7148889648435384a665ec601c0829.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas",
+            "nameColor": "multicolor",
+            "colorFamilyKey": 950,
+            "colorKey": 917,
+            "nameShop": "SHADOW 6000",
+            "price": 15000,
+            "savings": 51,
+            "specialPrice": 7300,
+            "similarPrices": true,
+            "silhouette": "sneaker",
+            "sku": "ZZO2J2P17-E00",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 15000,
+                    "specialPrice": 7300,
+                    "sku": "ZZO2J2P17-E000014000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TRJ/categories/60457365/articles/ZZO2J2P17-E00"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-08T21:59:59Z",
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 167133080,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/cb16bcb326c546f0b812d96700c36e49/1b74d47832454a7380b5cf9fc31f4386.jpg",
+                "spp-media-p1/2b38bb9507e14ce3b8acfd886c7a7c3b/e06be4a20d7b464eb10ee68a0d8f0253.jpg",
+                "spp-media-p1/31f33938ec0b4c49845d050de0f66020/35475b19c38346b093cbe1ee792f49b1.jpg",
+                "spp-media-p1/a5b7fee94fea488e944181b3ffae2abf/7b4ee625729149c59d80f53a8da85918.jpg",
+                "spp-media-p1/fd883a2a972343a8aa46aae183c2dbb4/47a6112a0cce47c89789f2dab171016c.jpg",
+                "spp-media-p1/0d9302387aa84eef82c4a2721f149a55/731bfee8883b40569d30a75b100dcec9.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/cb16bcb326c546f0b812d96700c36e49/1b74d47832454a7380b5cf9fc31f4386.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/2b38bb9507e14ce3b8acfd886c7a7c3b/e06be4a20d7b464eb10ee68a0d8f0253.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/31f33938ec0b4c49845d050de0f66020/35475b19c38346b093cbe1ee792f49b1.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a5b7fee94fea488e944181b3ffae2abf/7b4ee625729149c59d80f53a8da85918.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/fd883a2a972343a8aa46aae183c2dbb4/47a6112a0cce47c89789f2dab171016c.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/0d9302387aa84eef82c4a2721f149a55/731bfee8883b40569d30a75b100dcec9.jpg"
+                }
+            ],
+            "nameCategoryTag": "Alpargatas",
+            "nameColor": "crema",
+            "colorFamilyKey": 0,
+            "colorKey": 3,
+            "nameShop": "UNISEX",
+            "price": 3099,
+            "savings": 53,
+            "specialPrice": 1450,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI915C00D-A11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 3099,
+                    "specialPrice": 1450,
+                    "sku": "PI915C00D-A110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/167133080/articles/PI915C00D-A11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "PI915C00D-O11",
+                    "colorKey": 703,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 167133080,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/244cdada7ec742ccae03bcf6ee9c9b6c/cb806f944ebf47a1be125d225ca7178e.jpg",
+                "spp-media-p1/b7349f14ea3838b398b8b62da8d90328/ec0b49db99c14f76a2c5420aa8081b2a.jpg",
+                "spp-media-p1/9fdc27eb7fbc4582a5ed6eb2e616f176/38d4e06842da43f9b3120b441e9dae3b.jpg",
+                "spp-media-p1/dd2cbd6ba37e39e192c5ff4d6c01d5ca/1ea4f3d1f80940c7bbbe0c0947ca4c31.jpg",
+                "spp-media-p1/f07151932ca43cf58b711f5f88df4b6a/7feacd16e0f641c0a3bc1ce06bef0121.jpg",
+                "spp-media-p1/9e7eaec27ff5384d89129b06eaeac9e3/fda4333a64ba4097b26d5091792f4618.jpg",
+                "spp-media-p1/4e8d29467b593d6f9927181643d32301/c4bc197e5a8743a7a7f9ccbfe0b282f5.jpg",
+                "spp-media-p1/4b9141a03c443f0fa2ae79d29b1856ec/1eb50808d4584488a60ebfcbb93affb1.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/244cdada7ec742ccae03bcf6ee9c9b6c/cb806f944ebf47a1be125d225ca7178e.jpg"
+                },
+                {
+                    "character_code": "MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/b7349f14ea3838b398b8b62da8d90328/ec0b49db99c14f76a2c5420aa8081b2a.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/9fdc27eb7fbc4582a5ed6eb2e616f176/38d4e06842da43f9b3120b441e9dae3b.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/dd2cbd6ba37e39e192c5ff4d6c01d5ca/1ea4f3d1f80940c7bbbe0c0947ca4c31.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/f07151932ca43cf58b711f5f88df4b6a/7feacd16e0f641c0a3bc1ce06bef0121.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/9e7eaec27ff5384d89129b06eaeac9e3/fda4333a64ba4097b26d5091792f4618.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/4e8d29467b593d6f9927181643d32301/c4bc197e5a8743a7a7f9ccbfe0b282f5.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/4b9141a03c443f0fa2ae79d29b1856ec/1eb50808d4584488a60ebfcbb93affb1.jpg"
+                },
+                {
+                    "media_type": "VIDEO_LOW",
+                    "path": "comet/PI/91/5C/00/0Q/11/VIDEO/LOW_QUALITY/1649683141052.mp4",
+                    "preview_path": "comet/PI/91/5C/00/0Q/11/VIDEO/PREVIEW_IMG/1649684513267.jpg"
+                },
+                {
+                    "media_type": "VIDEO_HIGH",
+                    "path": "comet/PI/91/5C/00/0Q/11/VIDEO/HIGH_QUALITY/1649683158909.mp4",
+                    "preview_path": "comet/PI/91/5C/00/0Q/11/VIDEO/PREVIEW_IMG/1649684513267.jpg"
+                }
+            ],
+            "nameCategoryTag": "Alpargatas",
+            "nameColor": "negro",
+            "colorFamilyKey": 800,
+            "colorKey": 802,
+            "nameShop": "UNISEX",
+            "price": 2199,
+            "savings": 54,
+            "specialPrice": 1000,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI915C000-Q11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 2199,
+                    "specialPrice": 1000,
+                    "sku": "PI915C000-Q110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/167133080/articles/PI915C000-Q11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "PI915C000-G11",
+                    "colorKey": 302,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-K13",
+                    "colorKey": 955,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-B11",
+                    "colorKey": 704,
+                    "stockStatus": "SOLD_OUT"
+                },
+                {
+                    "sku": "PI915C000-N11",
+                    "colorKey": 604,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-A12",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "PI915C000-A11",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony Originals",
+            "brandCode": "SA7",
+            "categoryId": 60457365,
+            "campaignIdentifier": "ZZO2TRJ",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/4a8bf6f8db0348d582dd484159f39b37/ee759e4912324626853d0a1f8dbcccf6.jpg",
+                "spp-media-p1/158b9517439a45de8e72fdc6476de69d/3275adb550f24a1487e9100cf7345aef.jpg",
+                "spp-media-p1/802bbaa7ca9b4cbd9d2148e5b50600e6/a2d2fa8e7ddf49988b37827332811f03.jpg",
+                "spp-media-p1/5d4087fb11564ece9921ffc90b5e9ef0/71758d43aaf34a078973cf1f0bf7b9cc.jpg",
+                "spp-media-p1/36a7bf911b254a05a5896cf3aec5ca92/6f19cfb890b645989c9d39bafc1b2184.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/4a8bf6f8db0348d582dd484159f39b37/ee759e4912324626853d0a1f8dbcccf6.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/158b9517439a45de8e72fdc6476de69d/3275adb550f24a1487e9100cf7345aef.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/802bbaa7ca9b4cbd9d2148e5b50600e6/a2d2fa8e7ddf49988b37827332811f03.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/5d4087fb11564ece9921ffc90b5e9ef0/71758d43aaf34a078973cf1f0bf7b9cc.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/36a7bf911b254a05a5896cf3aec5ca92/6f19cfb890b645989c9d39bafc1b2184.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas",
+            "nameColor": "beige",
+            "colorFamilyKey": 50,
+            "colorKey": 704,
+            "nameShop": "SONIC LOW",
+            "price": 17000,
+            "savings": 51,
+            "specialPrice": 8200,
+            "similarPrices": true,
+            "silhouette": "sneaker",
+            "sku": "ZZO2J4E11-B00",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 17000,
+                    "specialPrice": 8200,
+                    "sku": "ZZO2J4E11-B000049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TRJ/categories/60457365/articles/ZZO2J4E11-B00"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-08T21:59:59Z",
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 167133080,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "unisex"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/85f17b21c4fc47dba577cead4ed068a7/79b0f6166f64487eb62b0a3e5fe51b59.jpg",
+                "spp-media-p1/96006c09ef584a12ac8b5c3f9f52161f/aed5fbeaf0a74826a4fe7b1c2846ed6e.jpg",
+                "spp-media-p1/11eebc70779e4607b191c694175df85a/dcc6261d92d14caeba4fbfe124813942.jpg",
+                "spp-media-p1/1ea8e91cf60349478a2e6b153faa3808/cd8db71461534dfb85dd0b2cbcc5aa05.jpg",
+                "spp-media-p1/cde219ec33e0414f95edd7433de770ae/316812ddbecf4104bd0aa1926cb580df.jpg",
+                "spp-media-p1/39b6f33262ea4412b0caa0271b18edad/21dba9fbfcc74e41b2c4fce2193aff6c.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/85f17b21c4fc47dba577cead4ed068a7/79b0f6166f64487eb62b0a3e5fe51b59.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/96006c09ef584a12ac8b5c3f9f52161f/aed5fbeaf0a74826a4fe7b1c2846ed6e.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/11eebc70779e4607b191c694175df85a/dcc6261d92d14caeba4fbfe124813942.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/1ea8e91cf60349478a2e6b153faa3808/cd8db71461534dfb85dd0b2cbcc5aa05.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/cde219ec33e0414f95edd7433de770ae/316812ddbecf4104bd0aa1926cb580df.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/39b6f33262ea4412b0caa0271b18edad/21dba9fbfcc74e41b2c4fce2193aff6c.jpg"
+                }
+            ],
+            "nameCategoryTag": "Alpargatas",
+            "nameColor": "marrón oscuro",
+            "colorFamilyKey": 700,
+            "colorKey": 703,
+            "nameShop": "UNISEX",
+            "price": 2699,
+            "savings": 53,
+            "specialPrice": 1250,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI915C00D-O11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 2699,
+                    "specialPrice": 1250,
+                    "sku": "PI915C00D-O110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/167133080/articles/PI915C00D-O11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "PI915C00D-A11",
+                    "colorKey": 3,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 118750576,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/ab5d2d7c034742c697080dcda0f0290e/4fba87049b354cae9410303fffc3a9b2.jpg",
+                "spp-media-p1/3d621a53d9d14f86a8e82239084ea69d/9e898df037aa49bfb14184ae83c8939b.jpg",
+                "spp-media-p1/a8b44e0c226e4a14bf338b5658351ef5/63853e6e0e09454fbe4a86c67d9aaf63.jpg",
+                "spp-media-p1/1a4a108000394380a79174c803bd1bb0/26d6767c96c346f19e91f3d6279b1a3d.jpg",
+                "spp-media-p1/a631259c9fe1447094268cb0a2831aca/f397dc6437644679a3c74f607a83262a.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/ab5d2d7c034742c697080dcda0f0290e/4fba87049b354cae9410303fffc3a9b2.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/3d621a53d9d14f86a8e82239084ea69d/9e898df037aa49bfb14184ae83c8939b.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a8b44e0c226e4a14bf338b5658351ef5/63853e6e0e09454fbe4a86c67d9aaf63.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/1a4a108000394380a79174c803bd1bb0/26d6767c96c346f19e91f3d6279b1a3d.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a631259c9fe1447094268cb0a2831aca/f397dc6437644679a3c74f607a83262a.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de running neutras",
+            "nameColor": "turquesa",
+            "colorFamilyKey": 550,
+            "colorKey": 505,
+            "nameShop": "KINVARA 14",
+            "price": 14000,
+            "savings": 55,
+            "specialPrice": 6300,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "ZZO2JXT05-T00",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 14000,
+                    "specialPrice": 6300,
+                    "sku": "ZZO2JXT05-T000014000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/118750576/articles/ZZO2JXT05-T00"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 114469976,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/3ad85090cc544c5ea5da1aebd2e26cf9/507bc977bfee4f8b8c8330c982721eef.jpg",
+                "spp-media-p1/024926d7323c427ebac38bf4e2dacfc6/8a65c052cd2f4414ae7f4b5b9713c9ec.jpg",
+                "spp-media-p1/ab614efd0f71498d9b6148d495dcb5a1/1b6f501c250f43859f52cc199db0db4c.jpg",
+                "spp-media-p1/da3b619ca70c4b2f9c2fbc09f14ff3be/1d2ac867c2b844c89d657cb75ef57098.jpg",
+                "spp-media-p1/e862702fdf4040029f581011bc0cfc74/b772260cd734479796bc3bdd327935b7.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/3ad85090cc544c5ea5da1aebd2e26cf9/507bc977bfee4f8b8c8330c982721eef.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/024926d7323c427ebac38bf4e2dacfc6/8a65c052cd2f4414ae7f4b5b9713c9ec.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/ab614efd0f71498d9b6148d495dcb5a1/1b6f501c250f43859f52cc199db0db4c.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/da3b619ca70c4b2f9c2fbc09f14ff3be/1d2ac867c2b844c89d657cb75ef57098.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/e862702fdf4040029f581011bc0cfc74/b772260cd734479796bc3bdd327935b7.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de trail running",
+            "nameColor": "rosa",
+            "colorFamilyKey": 450,
+            "colorKey": 402,
+            "nameShop": "ENDORPHIN EDGE",
+            "price": 23000,
+            "savings": 54,
+            "specialPrice": 10500,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "ZZO2JXT03-T00",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 23000,
+                    "specialPrice": 10500,
+                    "sku": "ZZO2JXT03-T000014000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/114469976/articles/ZZO2JXT03-T00"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 118750576,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/a4a7bf3b99974b27b0757b61569587bb/085984ef95dd4230b7d1853b292ffff1.jpg",
+                "spp-media-p1/797172fb6d974d059dd2fc459dae3f66/45dc80a9862c41a79430f6f5f72ec227.jpg",
+                "spp-media-p1/8194ed5ed53e4bc9abbdd0301ea50391/8f148a74b1904ab889436d0932205d12.jpg",
+                "spp-media-p1/01b7086b441b40a2bc19a682fc6eae61/a353fcfc082b4763adc4c0f34c5c8b7d.jpg",
+                "spp-media-p1/c9822cb5e96c45f8b8765c0768e5a9c3/7ed5df632f334a5dbc8191d27cfeeb21.jpg",
+                "spp-media-p1/ef8df20f1f0c4b01bf43332fae14e4a3/3714392ee12d4b36aefd6f2772d17af4.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a4a7bf3b99974b27b0757b61569587bb/085984ef95dd4230b7d1853b292ffff1.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/797172fb6d974d059dd2fc459dae3f66/45dc80a9862c41a79430f6f5f72ec227.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/8194ed5ed53e4bc9abbdd0301ea50391/8f148a74b1904ab889436d0932205d12.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/01b7086b441b40a2bc19a682fc6eae61/a353fcfc082b4763adc4c0f34c5c8b7d.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/c9822cb5e96c45f8b8765c0768e5a9c3/7ed5df632f334a5dbc8191d27cfeeb21.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/ef8df20f1f0c4b01bf43332fae14e4a3/3714392ee12d4b36aefd6f2772d17af4.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de running neutras",
+            "nameColor": "azul",
+            "colorFamilyKey": 500,
+            "colorKey": 502,
+            "nameShop": "KINVARA 14",
+            "price": 14500,
+            "savings": 55,
+            "specialPrice": 6400,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "S2342A06U-K11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 14500,
+                    "specialPrice": 6400,
+                    "sku": "S2342A06U-K110014000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/118750576/articles/S2342A06U-K11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "S2342A06U-E11",
+                    "colorKey": 202,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "S2342A06U-G11",
+                    "colorKey": 302,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "S2342A06U-K12",
+                    "colorKey": 502,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "S2342A06U-A11",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 211515606,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/bc6f8942df4c4a31b1117f17f6439e0b/4f94f531805f4ef2a06e00a07b70e6a5.jpg",
+                "spp-media-p1/90bdd48ad8ea40d8911210cd5dc534ac/dfa1830c5a3e414e80c8a59ad66dcb70.jpg",
+                "spp-media-p1/53e7050ec97140c888b06e821bce23be/cc477ec34e6946749f3ad3c5a22d3b6e.jpg",
+                "spp-media-p1/ebf54f9831134b4c823c40615a6151de/33763103251d45c0a752f4f0ba67601a.jpg",
+                "spp-media-p1/c4e4c9178bff49b7ac2359fe2387d334/ffd2d6ed13db428183a74e0dd85780c0.jpg",
+                "spp-media-p1/6d10de63556944a6a63895550b3c31a8/16f21596e39c496fab0d286a3ec7a9b4.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/bc6f8942df4c4a31b1117f17f6439e0b/4f94f531805f4ef2a06e00a07b70e6a5.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/90bdd48ad8ea40d8911210cd5dc534ac/dfa1830c5a3e414e80c8a59ad66dcb70.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/53e7050ec97140c888b06e821bce23be/cc477ec34e6946749f3ad3c5a22d3b6e.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/ebf54f9831134b4c823c40615a6151de/33763103251d45c0a752f4f0ba67601a.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/c4e4c9178bff49b7ac2359fe2387d334/ffd2d6ed13db428183a74e0dd85780c0.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/6d10de63556944a6a63895550b3c31a8/16f21596e39c496fab0d286a3ec7a9b4.jpg"
+                }
+            ],
+            "nameCategoryTag": "Mocasines",
+            "nameColor": "coñac",
+            "colorFamilyKey": 700,
+            "colorKey": 708,
+            "nameShop": "",
+            "price": 4299,
+            "savings": 59,
+            "specialPrice": 1739,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI912C0CG-O11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 4299,
+                    "specialPrice": 1739,
+                    "sku": "PI912C0CG-O110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/211515606/articles/PI912C0CG-O11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 211515606,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/a5d4aedf4dc6402f99398dcc98aeafd4/2f8e3d0ee67b406cbebc4c98779bd5e8.jpg",
+                "spp-media-p1/3521fc1bc5874c89bccf14ba7d52176f/f00bf3a585e242459d2e499d598dbed1.jpg",
+                "spp-media-p1/4ee5978d52704a89a354acfbe2d4c327/acaa15f1ecc94eddac41a47fad9f1d4a.jpg",
+                "spp-media-p1/efad3ce7699a4d82a43309c3c099d19c/0ff4b1b7c63c4025b6f33823a63fd1d2.jpg",
+                "spp-media-p1/176b5a43e4f8424083116bd1cde37222/852aff4cd8914d02829ed8dc9b1079c6.jpg",
+                "spp-media-p1/d2923c7ce2e040bcb08aa5c7bbf24b61/5baed9cb64ce47a7aa7a91b74498eea5.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a5d4aedf4dc6402f99398dcc98aeafd4/2f8e3d0ee67b406cbebc4c98779bd5e8.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/3521fc1bc5874c89bccf14ba7d52176f/f00bf3a585e242459d2e499d598dbed1.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/4ee5978d52704a89a354acfbe2d4c327/acaa15f1ecc94eddac41a47fad9f1d4a.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/efad3ce7699a4d82a43309c3c099d19c/0ff4b1b7c63c4025b6f33823a63fd1d2.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/176b5a43e4f8424083116bd1cde37222/852aff4cd8914d02829ed8dc9b1079c6.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/d2923c7ce2e040bcb08aa5c7bbf24b61/5baed9cb64ce47a7aa7a91b74498eea5.jpg"
+                }
+            ],
+            "nameCategoryTag": "Mocasines",
+            "nameColor": "azul marino",
+            "colorFamilyKey": 500,
+            "colorKey": 503,
+            "nameShop": "",
+            "price": 4299,
+            "savings": 59,
+            "specialPrice": 1739,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI912C0C5-K11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 4299,
+                    "specialPrice": 1739,
+                    "sku": "PI912C0C5-K110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/211515606/articles/PI912C0C5-K11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 118750576,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/e9739b7d462a4277a7b5a0ea738fa505/d6e8d1b6eea14cabba5730dce21ed0c5.jpg",
+                "spp-media-p1/a0b6906c2fcb4749bedb89d8f7c3dd65/666b88c5dc604b5c9974a8945c89f562.jpg",
+                "spp-media-p1/dcde893f66a448b2ac68a2a0b15fa6d7/615f808a931e4b35b1ae236455179370.jpg",
+                "spp-media-p1/6de5486643a8460299da964684e8ba56/861002584fdf4e8a83b572c86b39e943.jpg",
+                "spp-media-p1/7fc94ac6d2a74eeabcb25ab433cd2e93/aab05332e7c341e4bd78605e4a8f9755.jpg",
+                "spp-media-p1/c0e7d54ebefb4a5aafde414615c225d5/ae9446e156844f2cbf3880bb614da027.jpg",
+                "spp-media-p1/17e6e12c62df4c9f894083477f00455b/cd99429e98454069a300226be5a9cf84.jpg",
+                "spp-media-p1/0c37768ca0514c90b22f5b7ed3719bdb/3dcf4c51b03c47ab86d00e7578bd9f4c.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/e9739b7d462a4277a7b5a0ea738fa505/d6e8d1b6eea14cabba5730dce21ed0c5.jpg"
+                },
+                {
+                    "character_code": "MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a0b6906c2fcb4749bedb89d8f7c3dd65/666b88c5dc604b5c9974a8945c89f562.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/dcde893f66a448b2ac68a2a0b15fa6d7/615f808a931e4b35b1ae236455179370.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/6de5486643a8460299da964684e8ba56/861002584fdf4e8a83b572c86b39e943.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/7fc94ac6d2a74eeabcb25ab433cd2e93/aab05332e7c341e4bd78605e4a8f9755.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/c0e7d54ebefb4a5aafde414615c225d5/ae9446e156844f2cbf3880bb614da027.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/17e6e12c62df4c9f894083477f00455b/cd99429e98454069a300226be5a9cf84.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/0c37768ca0514c90b22f5b7ed3719bdb/3dcf4c51b03c47ab86d00e7578bd9f4c.jpg"
+                },
+                {
+                    "media_type": "VIDEO_LOW",
+                    "path": "comet/S2342A06U-G11/LOW_QUALITY/0002DT0X46D_Low_1686064658.mp4",
+                    "preview_path": "comet/S2342A06U-G11/PREVIEW_IMG/0002DT0X46D_image_1686064655.jpg"
+                },
+                {
+                    "media_type": "VIDEO_HIGH",
+                    "path": "comet/S2342A06U-G11/HIGH_QUALITY/0002DT0X46D_High_1686064662.mp4",
+                    "preview_path": "comet/S2342A06U-G11/PREVIEW_IMG/0002DT0X46D_image_1686064655.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de running neutras",
+            "nameColor": "rojo",
+            "colorFamilyKey": 300,
+            "colorKey": 302,
+            "nameShop": "KINVARA 14",
+            "price": 14000,
+            "savings": 54,
+            "specialPrice": 6400,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "S2342A06U-G11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 14000,
+                    "specialPrice": 6400,
+                    "sku": "S2342A06U-G110014000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/118750576/articles/S2342A06U-G11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "S2342A06U-E11",
+                    "colorKey": 202,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "S2342A06U-K11",
+                    "colorKey": 502,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "S2342A06U-K12",
+                    "colorKey": 502,
+                    "stockStatus": "AVAILABLE"
+                },
+                {
+                    "sku": "S2342A06U-A11",
+                    "colorKey": 1,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Merrell",
+            "brandCode": "ME1",
+            "categoryId": 239910870,
+            "campaignIdentifier": "ZZO2TQP",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/a2fa4c9dd3c7488bb614bef7ee0ac182/c36dadabdf4642119fa36853494c61fe.jpg",
+                "spp-media-p1/f1c5a957efe341678bdeffe70f3ce7f1/1ce2efbd2ddd478c8b35c613c07ed6eb.jpg",
+                "spp-media-p1/9ba971426f584bbcb9c0616253560856/0daedc216bbd425a808ed19ce1c79619.jpg",
+                "spp-media-p1/a43e5540b5364cad9c656ee4529acc1c/c6b1498e517e463d9e7faba5852d3615.jpg",
+                "spp-media-p1/907c1a8f8cbb4981a97036e9c35db37b/38e739771cad4d12856e0a790c62dcc4.jpg",
+                "spp-media-p1/505642c09b2f4e94ad3c2f07e7abea65/ee6169aac0b940d0817a4fd363b18bd5.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a2fa4c9dd3c7488bb614bef7ee0ac182/c36dadabdf4642119fa36853494c61fe.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/f1c5a957efe341678bdeffe70f3ce7f1/1ce2efbd2ddd478c8b35c613c07ed6eb.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/9ba971426f584bbcb9c0616253560856/0daedc216bbd425a808ed19ce1c79619.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a43e5540b5364cad9c656ee4529acc1c/c6b1498e517e463d9e7faba5852d3615.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/907c1a8f8cbb4981a97036e9c35db37b/38e739771cad4d12856e0a790c62dcc4.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/505642c09b2f4e94ad3c2f07e7abea65/ee6169aac0b940d0817a4fd363b18bd5.jpg"
+                }
+            ],
+            "nameCategoryTag": "Pies de gato",
+            "nameColor": "negro",
+            "colorFamilyKey": 800,
+            "colorKey": 802,
+            "nameShop": "TREKKING WEST RIM SPORT GTX",
+            "price": 15500,
+            "savings": 54,
+            "specialPrice": 7100,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "ME141A0G5-Q11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 15500,
+                    "specialPrice": 7100,
+                    "sku": "ME141A0G5-Q110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQP/categories/239910870/articles/ME141A0G5-Q11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 118750576,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": true,
+            "images": [
+                "spp-media-p1/f82586e3ea9a4fbd821da144429e7414/d7e0cc9dbc2c4722bcd5f67328170194.jpg",
+                "spp-media-p1/7a094540687742159e48db7a6dabafee/2cc13390046a49f19720c1e51f611eda.jpg",
+                "spp-media-p1/f6a7de9aa52640f6b6f4a8875ec799ab/55a0f3e425004ef992b98439fb8e4374.jpg",
+                "spp-media-p1/7071f3788b1d45e1bf47014e5ede98dc/c16a2364767e4106bbae833f4987237a.jpg",
+                "spp-media-p1/bcb31bbd8c9741079b0b615e72771e0c/35f222c92852427f85df2d021d69d365.jpg",
+                "spp-media-p1/d39a156b41d7415085318ca35c53d9c7/d104bac1d0e74a5a98b94b7485d571a9.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/f82586e3ea9a4fbd821da144429e7414/d7e0cc9dbc2c4722bcd5f67328170194.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/7a094540687742159e48db7a6dabafee/2cc13390046a49f19720c1e51f611eda.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/f6a7de9aa52640f6b6f4a8875ec799ab/55a0f3e425004ef992b98439fb8e4374.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/7071f3788b1d45e1bf47014e5ede98dc/c16a2364767e4106bbae833f4987237a.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/bcb31bbd8c9741079b0b615e72771e0c/35f222c92852427f85df2d021d69d365.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/d39a156b41d7415085318ca35c53d9c7/d104bac1d0e74a5a98b94b7485d571a9.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de running neutras",
+            "nameColor": "amarillo",
+            "colorFamilyKey": 200,
+            "colorKey": 202,
+            "nameShop": "AXON 3",
+            "price": 13000,
+            "savings": 52,
+            "specialPrice": 6200,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "S2342A072-E11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 13000,
+                    "specialPrice": 6200,
+                    "sku": "S2342A072-E110014000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/118750576/articles/S2342A072-E11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "similars": [
+                {
+                    "sku": "S2342A072-K12",
+                    "colorKey": 502,
+                    "stockStatus": "AVAILABLE"
+                }
+            ],
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "ASICS",
+            "brandCode": "AS1",
+            "categoryId": 118750576,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/c81d61023a2c4c51afe776625856c46a/9ea00d7b9ccc4cf3aa8b22f702ff301f.jpg",
+                "spp-media-p1/c43a937a251a48d4a425fa9799b81436/08039bf06059430e8c81688ea680aeea.jpg",
+                "spp-media-p1/609399b338e045cdac19462faee4e7e1/732b09c5542542a9a6947bc267f2c25b.jpg",
+                "spp-media-p1/554f1c854ea3461d9d6cdefafc626137/c6baacd8c1e849269d45ce161291f9a3.jpg",
+                "spp-media-p1/7fce18a3584a4e91a918b33e7c6d28bd/d2a52522cc1445f1b06f2d8125a53e55.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/c81d61023a2c4c51afe776625856c46a/9ea00d7b9ccc4cf3aa8b22f702ff301f.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/c43a937a251a48d4a425fa9799b81436/08039bf06059430e8c81688ea680aeea.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/609399b338e045cdac19462faee4e7e1/732b09c5542542a9a6947bc267f2c25b.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/554f1c854ea3461d9d6cdefafc626137/c6baacd8c1e849269d45ce161291f9a3.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/7fce18a3584a4e91a918b33e7c6d28bd/d2a52522cc1445f1b06f2d8125a53e55.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de running neutras",
+            "nameColor": "negro",
+            "colorFamilyKey": 800,
+            "colorKey": 802,
+            "nameShop": "JOLT 4",
+            "price": 6500,
+            "savings": 44,
+            "specialPrice": 3600,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "ZZO2LVY02-T00",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 6500,
+                    "specialPrice": 3600,
+                    "sku": "ZZO2LVY02-T000014000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/118750576/articles/ZZO2LVY02-T00"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "lowStock": true
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Pier One",
+            "brandCode": "PI9",
+            "categoryId": 193604943,
+            "campaignIdentifier": "ZZO2WN2",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/62f7a63d625d43fe9c72248ebc3a42dd/74266e53b93545f4821a87fbb1f98dbe.jpg",
+                "spp-media-p1/11313677d2db46d58d1c16350548e5a5/b7dfbb82c4d646909c4d1889cfdf02c9.jpg",
+                "spp-media-p1/510da792900a4764b588713010ed7722/67510801cb674ec9b3ebc64ca7c684b2.jpg",
+                "spp-media-p1/a756f3eb7c6341138810bbf546d46d4f/84cd38e405d74dceb00e1849b3dadd0e.jpg",
+                "spp-media-p1/f3e4e324e92842009349f10128556b91/b96904eca5794ed8a58eff47df6b1dae.jpg",
+                "spp-media-p1/bcbbcd48071846f8878e28ec7310a2e5/d25ec20865a2420ba7b4679e46e42b72.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/62f7a63d625d43fe9c72248ebc3a42dd/74266e53b93545f4821a87fbb1f98dbe.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/11313677d2db46d58d1c16350548e5a5/b7dfbb82c4d646909c4d1889cfdf02c9.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/510da792900a4764b588713010ed7722/67510801cb674ec9b3ebc64ca7c684b2.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a756f3eb7c6341138810bbf546d46d4f/84cd38e405d74dceb00e1849b3dadd0e.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/f3e4e324e92842009349f10128556b91/b96904eca5794ed8a58eff47df6b1dae.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/bcbbcd48071846f8878e28ec7310a2e5/d25ec20865a2420ba7b4679e46e42b72.jpg"
+                }
+            ],
+            "nameCategoryTag": "Mocasines",
+            "nameColor": "marrón oscuro",
+            "colorFamilyKey": 700,
+            "colorKey": 703,
+            "nameShop": "",
+            "price": 3499,
+            "savings": 54,
+            "specialPrice": 1589,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "PI912C0BZ-O11",
+            "subtitle": "",
+            "stockStatus": "AVAILABLE",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 3499,
+                    "specialPrice": 1589,
+                    "sku": "PI912C0BZ-O110049000",
+                    "stockStatus": "AVAILABLE",
+                    "stockHasReservations": false
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2WN2/categories/193604943/articles/PI912C0BZ-O11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-09T21:59:59Z",
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 114469976,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/d3e4172f962e4b6da7df7b8c7bd76774/498ee25354c8457081da0a396522c357.jpg",
+                "spp-media-p1/4be62178be1e4429a6c7b8a653ddcb7a/1bc35b6f889d4277a4adb6d622767cf7.jpg",
+                "spp-media-p1/2aa3b060d8524d30a0039799dae0ac13/3e4b491d47d1498b8f35944f02f96cf1.jpg",
+                "spp-media-p1/650e5bb6d1fe44efbf2db700e49567bd/395fc22c2d9b4e57ab3424153ada3abc.jpg",
+                "spp-media-p1/5f72de5524ec48b894616ecd8b469ab2/b3b1805f01ec487b86da8a034b45abc5.jpg",
+                "spp-media-p1/b24c154ac3b44fdb9ba77bb0c1543713/6f4d41f9df674e3f88b288b7b3e1755e.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/d3e4172f962e4b6da7df7b8c7bd76774/498ee25354c8457081da0a396522c357.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/4be62178be1e4429a6c7b8a653ddcb7a/1bc35b6f889d4277a4adb6d622767cf7.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/2aa3b060d8524d30a0039799dae0ac13/3e4b491d47d1498b8f35944f02f96cf1.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/650e5bb6d1fe44efbf2db700e49567bd/395fc22c2d9b4e57ab3424153ada3abc.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/5f72de5524ec48b894616ecd8b469ab2/b3b1805f01ec487b86da8a034b45abc5.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/b24c154ac3b44fdb9ba77bb0c1543713/6f4d41f9df674e3f88b288b7b3e1755e.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de trail running",
+            "nameColor": "negro",
+            "colorFamilyKey": 800,
+            "colorKey": 802,
+            "nameShop": "RIDE 15 TR GTX",
+            "price": 16500,
+            "savings": 66,
+            "specialPrice": 5600,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "S2342A06J-Q11",
+            "subtitle": "",
+            "stockStatus": "RESERVED",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 16500,
+                    "specialPrice": 5600,
+                    "sku": "S2342A06J-Q110014000",
+                    "stockStatus": "RESERVED",
+                    "stockHasReservations": true
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/114469976/articles/S2342A06J-Q11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 114469976,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/800aa1ed9c9f4803b1331db5283d41d8/0fbbd760789b49cda18387a13f483ecb.jpg",
+                "spp-media-p1/93e69abd5659473095fa56b556e30c7b/ffda0ddfea0f4b248a410487b22c5084.jpg",
+                "spp-media-p1/a893654964d34e61bb81534bf83fb94e/cfcbfd36918846e1af73ee326988475d.jpg",
+                "spp-media-p1/2871d6ac97254b92ab61e4efcfb4757b/96e7cb28f1fd4bc29e85076108b5a9dd.jpg",
+                "spp-media-p1/8e04cac02b1e492c8dd11a09eb20e673/6c73b47e1bd44e2d9b402d095bc512ab.jpg",
+                "spp-media-p1/9e0b92e3ebae448798ddc5cbcd178c00/c22d0835d366442caa2b9f891d781daf.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/800aa1ed9c9f4803b1331db5283d41d8/0fbbd760789b49cda18387a13f483ecb.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/93e69abd5659473095fa56b556e30c7b/ffda0ddfea0f4b248a410487b22c5084.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/a893654964d34e61bb81534bf83fb94e/cfcbfd36918846e1af73ee326988475d.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/2871d6ac97254b92ab61e4efcfb4757b/96e7cb28f1fd4bc29e85076108b5a9dd.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/8e04cac02b1e492c8dd11a09eb20e673/6c73b47e1bd44e2d9b402d095bc512ab.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/9e0b92e3ebae448798ddc5cbcd178c00/c22d0835d366442caa2b9f891d781daf.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de trail running",
+            "nameColor": "negro",
+            "colorFamilyKey": 800,
+            "colorKey": 802,
+            "nameShop": "AURA TR",
+            "price": 11000,
+            "savings": 54,
+            "specialPrice": 5000,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "S2342A073-Q11",
+            "subtitle": "",
+            "stockStatus": "RESERVED",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 11000,
+                    "specialPrice": 5000,
+                    "sku": "S2342A073-Q110014000",
+                    "stockStatus": "RESERVED",
+                    "stockHasReservations": true
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/114469976/articles/S2342A073-Q11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 114469976,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/64627b7e026d4e7aa1f5cd6188eae33b/f362e780cc3a4810a6fbf338f380f671.jpg",
+                "spp-media-p1/96a3cc92e7974616b7d5946cf10fa6d4/07912e60dfc747f3bdb14e324c42ee50.jpg",
+                "spp-media-p1/ea1aefef8b694151892686cea3e347a1/a41f7400b47e4ddbac27655591c3feb9.jpg",
+                "spp-media-p1/dd3b17c28df7494fb3c08a13de86fec6/91d8863ab6a84d6c960c7e8efbc9bb78.jpg",
+                "spp-media-p1/7a37d3e800114ae2841f3b285a0d890e/ec0a8494e8804b179d24e795fc209974.jpg",
+                "spp-media-p1/ccf88d5e9d514b389a3949eb334480d0/140575bba4b34af4bdfc5221a897c011.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/64627b7e026d4e7aa1f5cd6188eae33b/f362e780cc3a4810a6fbf338f380f671.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/96a3cc92e7974616b7d5946cf10fa6d4/07912e60dfc747f3bdb14e324c42ee50.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/ea1aefef8b694151892686cea3e347a1/a41f7400b47e4ddbac27655591c3feb9.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/dd3b17c28df7494fb3c08a13de86fec6/91d8863ab6a84d6c960c7e8efbc9bb78.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/7a37d3e800114ae2841f3b285a0d890e/ec0a8494e8804b179d24e795fc209974.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/ccf88d5e9d514b389a3949eb334480d0/140575bba4b34af4bdfc5221a897c011.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de trail running",
+            "nameColor": "verde",
+            "colorFamilyKey": 600,
+            "colorKey": 602,
+            "nameShop": "ENDORPHIN RIFT",
+            "price": 20000,
+            "savings": 55,
+            "specialPrice": 9000,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "S2342A075-M11",
+            "subtitle": "",
+            "stockStatus": "RESERVED",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 20000,
+                    "specialPrice": 9000,
+                    "sku": "S2342A075-M110014000",
+                    "stockStatus": "RESERVED",
+                    "stockHasReservations": true
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/114469976/articles/S2342A075-M11"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "Saucony",
+            "brandCode": "S23",
+            "categoryId": 118750576,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/2f473cd5690d4701b6a1908fdf4fcee7/7b026aecd7ff449097a5c370d823076c.jpg",
+                "spp-media-p1/741866ce277f45489593633bb2ea5657/145dd03b98834f57afab12c7457a7edd.jpg",
+                "spp-media-p1/fc401d71400845d9af026f0e9030b356/005235f84f724948bc6f8ebe7f97cb79.jpg",
+                "spp-media-p1/0f56d75abed548eb920e53410b7c2107/82846e7c52114837b73021ee6a4a1c2a.jpg",
+                "spp-media-p1/7b6952f6fb3b40db88816183469c67dd/9789b77e27de468ab530e73096b15f8c.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/2f473cd5690d4701b6a1908fdf4fcee7/7b026aecd7ff449097a5c370d823076c.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/741866ce277f45489593633bb2ea5657/145dd03b98834f57afab12c7457a7edd.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/fc401d71400845d9af026f0e9030b356/005235f84f724948bc6f8ebe7f97cb79.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/0f56d75abed548eb920e53410b7c2107/82846e7c52114837b73021ee6a4a1c2a.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/7b6952f6fb3b40db88816183469c67dd/9789b77e27de468ab530e73096b15f8c.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de running neutras",
+            "nameColor": "multicolor",
+            "colorFamilyKey": 950,
+            "colorKey": 917,
+            "nameShop": "",
+            "price": 19000,
+            "savings": 54,
+            "specialPrice": 8600,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "ZZO2HQ407-I00",
+            "subtitle": "",
+            "stockStatus": "RESERVED",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 19000,
+                    "specialPrice": 8600,
+                    "sku": "ZZO2HQ407-I000014000",
+                    "stockStatus": "RESERVED",
+                    "stockHasReservations": true
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/118750576/articles/ZZO2HQ407-I00"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "lowStock": false
+        },
+        {
+            "attributes": {
+                "is_wearable": true
+            },
+            "brand": "ASICS",
+            "brandCode": "AS1",
+            "categoryId": 114469976,
+            "campaignIdentifier": "ZZO2TQY",
+            "gender": [
+                "male"
+            ],
+            "hasSimilar": false,
+            "images": [
+                "spp-media-p1/5966c520cafc4767a3a4fabd1d2bb54e/412e73e46ef94faa8d2df74412291163.jpg",
+                "spp-media-p1/6e212c5463ba48b79ef4c1c5e7491bd9/d64642777c25471b888773235a15df7d.jpg",
+                "spp-media-p1/09c14c737ece40e2a2a2c742b589db10/e0a0eead10fd4f9bb30fcab263253340.jpg",
+                "spp-media-p1/84d441de0b764959936aa4a6efd215e5/db3729f089a14d12916841b035aeb01d.jpg",
+                "spp-media-p1/c6b19f2e6d7c4e01b0a7a5648c5fc354/414f78f70247493e99752394cc436d7e.jpg",
+                "spp-media-p1/67aef35578fe49ea8eb624f6faf0d3c6/d8123a3c02a642a7ac1d65b4a76ea71c.jpg"
+            ],
+            "media": [
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/5966c520cafc4767a3a4fabd1d2bb54e/412e73e46ef94faa8d2df74412291163.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/6e212c5463ba48b79ef4c1c5e7491bd9/d64642777c25471b888773235a15df7d.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/09c14c737ece40e2a2a2c742b589db10/e0a0eead10fd4f9bb30fcab263253340.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/84d441de0b764959936aa4a6efd215e5/db3729f089a14d12916841b035aeb01d.jpg"
+                },
+                {
+                    "character_code": "DETAILED",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/c6b19f2e6d7c4e01b0a7a5648c5fc354/414f78f70247493e99752394cc436d7e.jpg"
+                },
+                {
+                    "character_code": "NON_MODEL",
+                    "media_type": "IMAGE",
+                    "path": "spp-media-p1/67aef35578fe49ea8eb624f6faf0d3c6/d8123a3c02a642a7ac1d65b4a76ea71c.jpg"
+                }
+            ],
+            "nameCategoryTag": "Zapatillas de trail running",
+            "nameColor": "negro",
+            "colorFamilyKey": 800,
+            "colorKey": 802,
+            "nameShop": "GEL SONOMA 6 GTX",
+            "price": 10000,
+            "savings": 50,
+            "specialPrice": 5000,
+            "similarPrices": true,
+            "silhouette": "low_shoe",
+            "sku": "AS142A0S5-Q14",
+            "subtitle": "",
+            "stockStatus": "RESERVED",
+            "simples": [
+                {
+                    "country_sizes": {
+                        "fr": "49"
+                    },
+                    "filterName": "shoes",
+                    "filterValue": "49",
+                    "price": 10000,
+                    "specialPrice": 5000,
+                    "sku": "AS142A0S5-Q140014000",
+                    "stockStatus": "RESERVED",
+                    "stockHasReservations": true
+                }
+            ],
+            "urlPath": {
+                "46": "/campaigns/ZZO2TQY/categories/114469976/articles/AS142A0S5-Q14"
+            },
+            "sustainable": false,
+            "hasTestMedia": false,
+            "campaignEndDate": "2024-07-10T21:59:59Z",
+            "lowStock": false
+        }
+    ]
+}
