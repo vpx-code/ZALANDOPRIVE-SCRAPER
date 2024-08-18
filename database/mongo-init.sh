@@ -68,4 +68,14 @@ db.createView("tagged_categories", "tags", [
 
 EOF
 
-echo "=============CONFIG COMPLETED================="
+echo "=============USER AND COLLECTIONS CONFIGURED================="
+
+# Prepopulate collections with JSON data
+echo "=============STARTED IMPORTING JSON DATA================="
+
+mongoimport --username "$username" --password "$password" --authenticationDatabase "zalando-prive" --db zalando-prive --collection brands --file /app/datasets/brands.json --jsonArray
+mongoimport --username "$username" --password "$password" --authenticationDatabase "zalando-prive" --db zalando-prive --collection categories --file /app/datasets/categories.json --jsonArray
+mongoimport --username "$username" --password "$password" --authenticationDatabase "zalando-prive" --db zalando-prive --collection sizes --file /app/datasets/sizes.json --jsonArray
+mongoimport --username "$username" --password "$password" --authenticationDatabase "zalando-prive" --db zalando-prive --collection tags --file /app/datasets/tagging.json --jsonArray
+
+echo "=============JSON DATA IMPORT COMPLETED================="

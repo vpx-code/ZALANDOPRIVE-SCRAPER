@@ -1,14 +1,13 @@
 services:
   mongodb:
-    image: mongo:4.4.0
+    image: zp-mongodb
     secrets:
       - mongodb_username
       - mongodb_password
     volumes:
-      - mongo_data:/data/db
-      - ./database/mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh:ro
+      - mongo_data:/data/db_TEST
     ports:
-      - 27017:27017
+      - 27018:27017
     networks:
       - network
 
@@ -29,7 +28,7 @@ services:
   nodejs-server:
     image: zp-node
     ports:
-      - "1939:1939"
+      - "1945:1939"
     environment:
       - MONGODB_URI=/run/secrets/mongodb_uri
       - PROXY_URI=/run/secrets/proxy_uri
