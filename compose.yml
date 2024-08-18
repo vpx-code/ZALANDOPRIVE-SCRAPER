@@ -35,8 +35,6 @@ services:
       - PROXY_URI=/run/secrets/proxy_uri
       - ZALANDO_EMAIL=/run/secrets/zalando_email
       - ZALANDO_PASSWORD=/run/secrets/zalando_password
-      - SCHEDULER_HOUR=7
-      - SCHEDULER_MINUTE=0
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     secrets:
