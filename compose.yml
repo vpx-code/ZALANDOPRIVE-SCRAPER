@@ -7,7 +7,7 @@ services:
     volumes:
       - mongo_data:/data/db_TEST
     ports:
-      - 27018:27017
+      - 27017:27017
     networks:
       - network
 
@@ -28,7 +28,7 @@ services:
   nodejs-server:
     image: zp-node
     ports:
-      - "1945:1939"
+      - "1939:1939"
     environment:
       - MONGODB_URI=/run/secrets/mongodb_uri
       - PROXY_URI=/run/secrets/proxy_uri
