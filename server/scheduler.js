@@ -2,8 +2,8 @@ const cron = require('node-cron');
 const watchlistController = require('./controllers/watchlistController');
 
 // Read scheduler hour and minute from environment variables
-const schedulerHour = process.env.SCHEDULER_HOUR || '7'; // Default to 22 if not set
-const schedulerMinute = process.env.SCHEDULER_MINUTE || '0'; // Default to 18 if not set
+const schedulerHour = process.env.SCHEDULER_HOUR || '7';
+const schedulerMinute = process.env.SCHEDULER_MINUTE || '0'; 
 
 // Log environment variables for debugging
 console.log(`Scheduler Hour: ${schedulerHour}`);
