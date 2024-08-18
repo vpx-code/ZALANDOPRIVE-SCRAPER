@@ -20,7 +20,7 @@ exports.createOrUpdateService = async (serviceName, payload) => {
     const environmentVariables = [
       `url=${payload}`,
       `MONGODB_URI=${readSecret('mongodb_uri')}`,
-      `PROXY_URI=${readSecret('proxy_uri')}`,
+//      `PROXY_URI=${readSecret('proxy_uri')}`,
       `ZALANDO_EMAIL=${readSecret('zalando_email')}`,
       `ZALANDO_PASSWORD=${readSecret('zalando_password')}`
     ];
