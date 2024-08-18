@@ -5,18 +5,18 @@ services:
       - mongodb_username
       - mongodb_password
     volumes:
-      - mongo_data:/data/db_TEST
+      - mongo_data:/data/db
     ports:
       - 27017:27017
     networks:
       - network
 
-  tor-proxy:
-    image: dockage/tor-privoxy
-    ports:
-      - "8118:8118"
-    networks:
-      - network
+#  tor-proxy:
+#    image: dockage/tor-privoxy
+#    ports:
+#      - "8118:8118"
+#    networks:
+#      - network
 
   selenium-chromium:
     image: seleniarm/standalone-chromium:latest
@@ -31,19 +31,19 @@ services:
       - "1939:1939"
     environment:
       - MONGODB_URI=/run/secrets/mongodb_uri
-      - PROXY_URI=/run/secrets/proxy_uri
+#      - PROXY_URI=/run/secrets/proxy_uri
       - ZALANDO_EMAIL=/run/secrets/zalando_email
       - ZALANDO_PASSWORD=/run/secrets/zalando_password
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     secrets:
       - mongodb_uri
-      - proxy_uri
+#      - proxy_uri
       - zalando_email
       - zalando_password
     depends_on:
       - mongodb
-      - tor-proxy
+#      - tor-proxy
       - selenium-chromium
     networks:
       - network
@@ -55,8 +55,8 @@ secrets:
     file: ./secrets/mongodb_password.txt
   mongodb_uri:
     file: ./secrets/mongodb_uri.txt
-  proxy_uri:
-    file: ./secrets/proxy_uri.txt
+#  proxy_uri:
+#    file: ./secrets/proxy_uri.txt
   zalando_email:
     file: ./secrets/zalando_email.txt
   zalando_password:

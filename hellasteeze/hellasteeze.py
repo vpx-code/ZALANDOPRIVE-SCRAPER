@@ -9,14 +9,14 @@ import random
 import time
 
 MONGO_URI = os.getenv('MONGODB_URI') 
-PROXY_URI = os.getenv('PROXY_URI') 
+#PROXY_URI = os.getenv('PROXY_URI') 
 
 client = docker.from_env()
     
-tor_proxy = {
-        'http': PROXY_URI,
-        'https': PROXY_URI
-    }
+#tor_proxy = {
+#        'http': PROXY_URI,
+#        'https': PROXY_URI
+#    }
 
 def get_ip_and_country():
     try:
