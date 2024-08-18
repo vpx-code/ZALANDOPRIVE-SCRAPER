@@ -4,7 +4,7 @@ const categoryController = require('./categoryController');
 const dockerController = require('./dockerController');
 
 exports.encodeURL = async (watchlist) => {
-  const multi_option_char = "%2C";
+  const multi_option_char = "%7C";
   let payload = [];
 
   if (watchlist.url) {

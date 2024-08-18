@@ -20,7 +20,7 @@ tor_proxy = {
 
 def get_ip_and_country():
     try:
-        response = requests.get('https://ipinfo.io', proxies=tor_proxy)
+        response = requests.get('https://ipinfo.io')
         data = response.json()
         ip = data.get('ip')
         country = data.get('country')
@@ -33,7 +33,7 @@ def update_cookies(cookies, updates):
     cookie_str = ''
     for key, value in updates.items():
         cookie_str += f'{key}={value}; '
-    print(f'Cookies are: {cookie_str[0:25]}')
+    print(f'Cookies are: {cookie_str}')
     return cookie_str
 
 # Function to save JSON to a file
@@ -118,13 +118,13 @@ def try_request_with_cookies():
     })
     
     while nextCursor is not None:
-        response = requests.request("POST", os.getenv('url'), headers=initial_headers, data=initial_payload, proxies=tor_proxy)
+        response = requests.request("POST", os.getenv('url'), headers=initial_headers, data=initial_payload)
         if response.status_code == 206:
             print("Request was successful.")
             resulting_json = response.json()
-            print(f"Response snippet was {str(resulting_json)[0:25]}")
+            print(f"Response snippet was {str(resulting_json)[0:100]}")
             nextCursor = resulting_json.get("nextCursor", None)
-            print (f"Next cursor is: {str(nextCursor)[0:25]}")
+            print (f"Next cursor is: {str(nextCursor)[0:100]}")
             if nextCursor:
                 print("Next cursor was found")
                 initial_payload = json.dumps({
