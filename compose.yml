@@ -1,12 +1,11 @@
 services:
   mongodb:
-    image: mongo:4.4.0
+    image: zp-mongodb
     secrets:
       - mongodb_username
       - mongodb_password
     volumes:
-      - mongo_data:/data/db
-      - ./database/mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh:ro
+      - mongo_data:/data/db_TEST
     ports:
       - 27017:27017
     networks:
