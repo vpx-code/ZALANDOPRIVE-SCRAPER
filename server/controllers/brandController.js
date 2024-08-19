@@ -10,6 +10,21 @@ exports.getBrandCode = async (brandName) => {
       return null;
     }
   } catch (error) {
+    console.log(error)
+    return null;
+  }
+};
+
+exports.getBrands = async () => {
+  try {
+    const brand = await Brand.find();
+    if (brand) {
+      return brand
+    } else {
+      return null;
+    }
+  } catch (error) {
+    console.log(error)
     return null;
   }
 };
