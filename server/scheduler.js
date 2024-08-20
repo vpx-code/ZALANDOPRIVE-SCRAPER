@@ -31,13 +31,11 @@ const campaignStartTask = cron.schedule(cronSchedule, task, {
   timezone: "Europe/Madrid"
 });
 
-const campaignCloseTask = cron.schedule("0 22 * * *", task, {
+const campaignEndTask = cron.schedule("0 22 * * *", task, {
   scheduled: true,
   timezone: "Europe/Madrid"
 });
 
 // Confirm scheduling
 console.log('Campaign start task scheduled:', campaignStartTask);
-console.log('Campaign end task scheduled:', campaignCloseTask);
-
-module.exports = scheduledTask;
+console.log('Campaign end task scheduled:', campaignEndTask);
