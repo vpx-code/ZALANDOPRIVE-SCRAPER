@@ -7,6 +7,8 @@ from pymongo import MongoClient
 import docker
 import random
 import time
+from datetime import datetime
+from dateutil import parser
 
 MONGO_URI = os.getenv('MONGODB_URI') 
 #PROXY_URI = os.getenv('PROXY_URI') 
@@ -60,41 +62,54 @@ def save_cookies_to_mongo(cookies):
 def save_response_to_mongo(responses):
     print("Saving product info to MongoDB...")
     
+    client = MongoClient(MONGO_URI)
+    db = client['zalando-prive']
+    collection = db['products']
+    
+    base_url = "https://www.zalando-prive.es"
+    base_image_url = "https://img01.ztat.net/article/"
+        
     for part in responses:
-        # Parse the JSON response if it's a string
         if isinstance(part, str):
             response = json.loads(part)
         else:
             response = part
         
-        client = MongoClient(MONGO_URI)
-        db = client['zalando-prive']
-        collection = db['products']
-        
-        base_url = "https://www.zalando-prive.es"
-        base_image_url = "https://img01.ztat.net/article/"
         configs = response.get('configs', [])
         
         for item in configs:
+            stockStatus = item.get("stockStatus")
+            campaign_end_date_str = item.get("campaignEndDate")
+            
+            if campaign_end_date_str:
+                campaign_end_date = parser.parse(campaign_end_date_str)
+                if campaign_end_date < datetime.utcnow():
+                    stockStatus = "UNAVAILABLE"
+            
             processed_item = {
                 "nameCategoryTag": item.get("nameCategoryTag"),
                 "nameColor": item.get("nameColor"),
                 "brand": item.get("brand"),
                 "nameShop": item.get("nameShop"),
-                "specialPrice": item.get("specialPrice"),
                 "images": [base_image_url + img for img in item.get("images", [])[:3]],
                 "brandCode": item.get("brandCode"),
                 "sku": item.get("sku"),
-                "campaignId": item.get("campaignIdentifier"),
                 "campaignEndDate": item.get("campaignEndDate"),
-                "stockStatus": item.get("stockStatus"),
+                "stockStatus": stockStatus,
                 "urlPath": base_url + item.get("urlPath", {}).get("46")
             }
             
-            # Upsert operation: update if exists, insert if not
             collection.update_one(
-                {"campaignId": item.get("campaignIdentifier"), "sku": item.get("sku")},
-                {"$set": processed_item},
+                { 
+                    "sku": item.get("sku")
+                },
+                {
+                    "$set": processed_item,
+                    "$push": {
+                        "specialPrice": item.get("specialPrice"),
+                        "campaignEndDate": campaign_end_date
+                    }
+                },
                 upsert=True
             )
 

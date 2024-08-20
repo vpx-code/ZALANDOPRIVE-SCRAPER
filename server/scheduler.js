@@ -26,12 +26,18 @@ const task = async () => {
 };
 
 // Schedule the task with the correct timezone
-const scheduledTask = cron.schedule(cronSchedule, task, {
+const campaignStartTask = cron.schedule(cronSchedule, task, {
+  scheduled: true,
+  timezone: "Europe/Madrid"
+});
+
+const campaignCloseTask = cron.schedule("0 22 0 0 0", task, {
   scheduled: true,
   timezone: "Europe/Madrid"
 });
 
 // Confirm scheduling
-console.log('Scheduler task scheduled:', scheduledTask);
+console.log('Campaign start task scheduled:', campaignStartTask);
+console.log('Campaign end task scheduled:', campaignCloseTask);
 
 module.exports = scheduledTask;
