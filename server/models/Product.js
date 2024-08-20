@@ -5,12 +5,11 @@ const ProductSchema = new mongoose.Schema({
     nameColor: { type: String },
     brand: { type: String },
     nameShop: { type: String },
-    specialPrice: { type: Number },
+    specialPrice: [{ type: Number }],
     images: [{ type: String }],
     brandCode: { type: String },
     sku: { type: String },
-    campaignId: { type: String },
-    campaignEndDate: { type: Date },
+    campaignEndDate: [{ type: Date }],
     stockStatus: { type: String },
     urlPath: { type: String }
 });
