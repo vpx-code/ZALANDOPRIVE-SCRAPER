@@ -31,7 +31,7 @@ const campaignStartTask = cron.schedule(cronSchedule, task, {
   timezone: "Europe/Madrid"
 });
 
-const campaignCloseTask = cron.schedule("0 22 0 0 0", task, {
+const campaignCloseTask = cron.schedule("0 22 * * *", task, {
   scheduled: true,
   timezone: "Europe/Madrid"
 });
