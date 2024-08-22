@@ -23,9 +23,9 @@ mongoose.connect(MONGODB_URI)
 
 app.use('/api/products', productRoutes);
 app.use('/api/watchlists', watchlistRoutes);
-app.use('/api/docker', dockerRoutes);
 app.use('/api/brands', brandRoutes);
 app.use('/api/categories', categoryRoutes);
+app.use('/test/docker', dockerRoutes);
 
 // Start the server
 app.listen(PORT, () => {

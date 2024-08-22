@@ -11,6 +11,7 @@ services:
     networks:
       - network
 
+# Con proxy no va, al menos el cookiemonster. Da ERR_PROXIES_NOT_ALLOWED
 #  tor-proxy:
 #    image: dockage/tor-privoxy
 #    ports:
