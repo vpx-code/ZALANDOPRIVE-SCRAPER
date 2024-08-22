@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 
 ZALANDO_EMAIL = os.getenv('ZALANDO_EMAIL')
 ZALANDO_PASSWORD = os.getenv('ZALANDO_PASSWORD')
+#PROXY_URI = os.getenv('PROXY_URI')
 
 def setup_driver():
     chrome_options = Options()
@@ -16,7 +17,7 @@ def setup_driver():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument('--ignore-certificate-errors')
-    #chrome_options.add_argument(f'--proxy-server={get_secret("/run/secrets/proxy_uri")}')
+    #chrome_options.add_argument(f'--proxy-server="{PROXY_URI}"')
     chrome_options.add_argument('--allow-running-insecure-content')
     chrome_options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15')
     chrome_options.add_argument('--v=1')  # Increase logging verbosity
@@ -51,6 +52,10 @@ def test_login():
         time.sleep(3)
         driver.get_screenshot_as_file("screenshot1.png")
 
+        """
+        They are adding and removing this over time.
+        """        
+        
         driver.find_element(By.ID, 'sso-login-lounge').click()
         print("Entered the Login menu. Clicking stuff...")
         driver.get_screenshot_as_file("screenshot2.png")

@@ -1,5 +1,5 @@
 const cron = require('node-cron');
-const watchlistController = require('./controllers/watchlistController');
+const dockerController = require('./controllers/dockerController');
 
 // Read scheduler hour and minute from environment variables
 const schedulerHour = process.env.SCHEDULER_HOUR || '7';
@@ -19,7 +19,7 @@ console.log(`Scheduler is set to run at ${schedulerHour}:${schedulerMinute} ever
 const task = async () => {
   console.log('Scheduler task is executing...');
   try {
-    await watchlistController.startAllServices();
+    await dockerController.startAllServices();
   } catch (error) {
     console.error('Error during service startup:', error.message);
   }
@@ -31,7 +31,7 @@ const campaignStartTask = cron.schedule(cronSchedule, task, {
   timezone: "Europe/Madrid"
 });
 
-const campaignEndTask = cron.schedule("0 22 * * *", task, {
+const campaignEndTask = cron.schedule("0 0 * * *", task, {
   scheduled: true,
   timezone: "Europe/Madrid"
 });
