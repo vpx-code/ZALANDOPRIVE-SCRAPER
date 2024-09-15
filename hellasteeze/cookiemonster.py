@@ -1,35 +1,38 @@
 import time
 import json
 import os
+import undetected_chromedriver as uc
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
+USE_REMOTE_DRIVER = False
 ZALANDO_EMAIL = os.getenv('ZALANDO_EMAIL')
 ZALANDO_PASSWORD = os.getenv('ZALANDO_PASSWORD')
 #PROXY_URI = os.getenv('PROXY_URI')
 
 def setup_driver():
+    print("Setting up driver...")
     chrome_options = Options()
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument('--ignore-certificate-errors')
-    #chrome_options.add_argument(f'--proxy-server="{PROXY_URI}"')
     chrome_options.add_argument('--allow-running-insecure-content')
-    chrome_options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15')
-    chrome_options.add_argument('--v=1')  # Increase logging verbosity
-    chrome_options.add_argument('--log-level=0')  # Set log level to ALL
+    chrome_options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36')
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--v=1')
+    chrome_options.add_argument('--log-level=0')
     chrome_options.add_argument('--verbose')
 
-    driver = webdriver.Remote(
-        command_executor='http://selenium-chromium:4444/wd/hub',
-        options=chrome_options
-    )
+    # Initialize undetected-chromedriver with Chromium
+    driver = uc.Chrome(options=chrome_options, driver_executable_path="/usr/bin/chromedriver")
+
+    print("Using local WebDriver.")
     driver.set_window_size(1920, 1080)
-    
+
     return driver
 
 def get_cookies(driver):
@@ -43,28 +46,35 @@ def test_login():
     
     try:
         print("Performing Selenium code on the Grid...")
-        driver.get("https://www.zalando-prive.es/")
+        driver.get("https://zalando-prive.es")
         time.sleep(3)
         driver.get_screenshot_as_file("screenshot.png")
-        
+
         driver.find_element(By.ID, 'topbar-cta-btn').click()
         print("Clicked the Login button.")
         time.sleep(3)
         driver.get_screenshot_as_file("screenshot1.png")
 
-        """
-        They are adding and removing this over time.
-        """        
-        
-        driver.find_element(By.ID, 'sso-login-lounge').click()
-        print("Entered the Login menu. Clicking stuff...")
-        driver.get_screenshot_as_file("screenshot2.png")
-        time.sleep(3)
+        sso_login_element = None
+        try:
+            sso_login_element = driver.find_element(By.ID, 'sso-login-lounge')
+        except:
+            print("'sso-login-lounge' element not found.")
+
+        if sso_login_element and sso_login_element.is_displayed():
+            sso_login_element.click()
+            print("Entered the Login menu. Clicking stuff...")
+            driver.get_screenshot_as_file("screenshot2.png")
+            time.sleep(3)
+        else:
+            print("'sso-login-lounge' is not visible or not present.")
+
         
         print("Submitting email...")
         driver.find_element(By.ID, "lookup-email").click()
         driver.find_element(By.ID, "lookup-email").send_keys(ZALANDO_EMAIL)
         driver.get_screenshot_as_file("screenshot3.png")
+        time.sleep(3)
         driver.find_element(By.ID, "lookup-email").send_keys(Keys.ENTER)
         driver.get_screenshot_as_file("screenshot4.png")
         print("Submitted email.")
@@ -72,7 +82,7 @@ def test_login():
         driver.get_screenshot_as_file("screenshot5.png")
         print("Be patient, I'm working...")
         
-        time.sleep(3)
+        time.sleep(5)
         print("Submitting password...")
         driver.find_element(By.ID, "login-password").click()
         driver.find_element(By.ID, "login-password").send_keys(ZALANDO_PASSWORD)

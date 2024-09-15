@@ -19,13 +19,6 @@ services:
 #    networks:
 #      - network
 
-  selenium-chromium:
-    image: seleniarm/standalone-chromium:latest
-    ports:
-      - "4444:4444"
-    networks:
-      - network
-
   nodejs-server:
     image: zp-node
     ports:
@@ -45,7 +38,6 @@ services:
     depends_on:
       - mongodb
 #      - tor-proxy
-      - selenium-chromium
     networks:
       - network
 
