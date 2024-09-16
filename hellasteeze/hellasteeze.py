@@ -81,15 +81,15 @@ def save_response_to_mongo(responses):
             stockStatus = item.get("stockStatus")
             campaign_end_date_str = item.get("campaignEndDate")
             
-        if campaign_end_date_str:
-            campaign_end_date = parser.parse(campaign_end_date_str)
+            if campaign_end_date_str:
+                campaign_end_date = parser.parse(campaign_end_date_str)
 
-            # Make sure both dates are naive
-            if campaign_end_date.tzinfo is not None:
-                campaign_end_date = campaign_end_date.replace(tzinfo=None)
+                # Ensure both dates are naive
+                if campaign_end_date.tzinfo is not None:
+                    campaign_end_date = campaign_end_date.replace(tzinfo=None)
 
-            if campaign_end_date < datetime.utcnow().replace(tzinfo=None):
-                stockStatus = "UNAVAILABLE"
+                if campaign_end_date < datetime.utcnow().replace(tzinfo=None):
+                    stockStatus = "UNAVAILABLE"
             
             processed_item = {
                 "nameCategoryTag": item.get("nameCategoryTag"),
@@ -99,7 +99,7 @@ def save_response_to_mongo(responses):
                 "images": [base_image_url + img for img in item.get("images", [])[:3]],
                 "brandCode": item.get("brandCode"),
                 "sku": item.get("sku"),
-                "campaignEndDate": item.get("campaignEndDate"),
+                "campaignEndDate": campaign_end_date,  # Store the latest campaign end date
                 "stockStatus": stockStatus,
                 "urlPath": base_url + item.get("urlPath", {}).get("46")
             }
@@ -111,13 +111,12 @@ def save_response_to_mongo(responses):
                 {
                     "$set": processed_item,
                     "$push": {
-                        "specialPrice": item.get("specialPrice"),
-                        "campaignEndDate": campaign_end_date
+                        "campaignEndDateHistory": campaign_end_date  # Store the history of dates
                     }
                 },
                 upsert=True
             )
-
+            
 def start_get_session_cookie_container():
     print("Getting cookies from the monster...")
     cookies = test_login()
