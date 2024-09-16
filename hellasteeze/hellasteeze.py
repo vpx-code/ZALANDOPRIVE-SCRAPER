@@ -83,7 +83,7 @@ def save_response_to_mongo(responses):
             
             if campaign_end_date_str:
                 campaign_end_date = parser.parse(campaign_end_date_str)
-                if campaign_end_date < datetime.utcnow():
+                if campaign_end_date < datetime.utcnow(tzinfo=None):
                     stockStatus = "UNAVAILABLE"
             
             processed_item = {
