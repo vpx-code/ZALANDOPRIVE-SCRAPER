@@ -80,16 +80,23 @@ def save_response_to_mongo(responses):
         for item in configs:
             stockStatus = item.get("stockStatus")
             campaign_end_date_str = item.get("campaignEndDate")
+            special_price = item.get("specialPrice")
             
             if campaign_end_date_str:
                 campaign_end_date = parser.parse(campaign_end_date_str)
 
-                # Ensure both dates are naive
+                # Make sure both dates are naive
                 if campaign_end_date.tzinfo is not None:
                     campaign_end_date = campaign_end_date.replace(tzinfo=None)
 
                 if campaign_end_date < datetime.utcnow().replace(tzinfo=None):
                     stockStatus = "UNAVAILABLE"
+            
+            # Prepare the price history record (current price and date)
+            price_history_entry = {
+                "date": datetime.utcnow().replace(tzinfo=None),
+                "price": special_price
+            }
             
             processed_item = {
                 "nameCategoryTag": item.get("nameCategoryTag"),
@@ -100,6 +107,7 @@ def save_response_to_mongo(responses):
                 "brandCode": item.get("brandCode"),
                 "sku": item.get("sku"),
                 "campaignEndDate": campaign_end_date,  # Store the latest campaign end date
+                "specialPrice": special_price,  # Store the latest special price
                 "stockStatus": stockStatus,
                 "urlPath": base_url + item.get("urlPath", {}).get("46")
             }
@@ -111,7 +119,8 @@ def save_response_to_mongo(responses):
                 {
                     "$set": processed_item,
                     "$push": {
-                        "campaignEndDateHistory": campaign_end_date  # Store the history of dates
+                        "campaignEndDateHistory": campaign_end_date,  # History of campaign end dates
+                        "priceHistory": price_history_entry  # History of prices with date
                     }
                 },
                 upsert=True
