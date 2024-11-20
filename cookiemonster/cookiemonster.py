@@ -2,6 +2,7 @@ import time
 import json
 import os
 import undetected_chromedriver as uc
+from pymongo import MongoClient
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -10,6 +11,7 @@ from selenium.webdriver.chrome.options import Options
 USE_REMOTE_DRIVER = False
 ZALANDO_EMAIL = os.getenv('ZALANDO_EMAIL')
 ZALANDO_PASSWORD = os.getenv('ZALANDO_PASSWORD')
+MONGO_URI = os.getenv('MONGODB_URI') 
 #PROXY_URI = os.getenv('PROXY_URI')
 
 def setup_driver():
@@ -25,7 +27,7 @@ def setup_driver():
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--v=1')
     chrome_options.add_argument('--log-level=0')
-    chrome_options.add_argument('--verbose')
+    chrome_options.add_argument('--verbose')    
 
     # Initialize undetected-chromedriver with Chromium
     driver = uc.Chrome(options=chrome_options, driver_executable_path="/usr/bin/chromedriver")
@@ -34,6 +36,14 @@ def setup_driver():
     driver.set_window_size(1920, 1080)
 
     return driver
+
+def save_cookies_to_mongo(cookies):
+    print ("Saving cookies to MongoDB...")
+    client = MongoClient(MONGO_URI)
+    db = client['zalando-prive']
+    collection = db['cookies']
+    collection.update_one({}, {'$set': {'cookies': cookies}}, upsert=True)
+
 
 def get_cookies(driver):
     print("Nom nom nom! Cookies!!")
@@ -65,7 +75,7 @@ def test_login():
             sso_login_element.click()
             print("Entered the Login menu. Clicking stuff...")
             driver.get_screenshot_as_file("screenshot2.png")
-            time.sleep(3)
+            time.sleep(10)
         else:
             print("'sso-login-lounge' is not visible or not present.")
 
@@ -93,6 +103,7 @@ def test_login():
         print("I just waited 5 seconds.")
         driver.get_screenshot_as_file("screenshot7.png")
         cookies = get_cookies(driver)
+        save_cookies_to_mongo(cookies)
         return cookies
 
     except Exception as e:

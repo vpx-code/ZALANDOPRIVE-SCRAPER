@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: zp-mongodb
+    image: zpscraper-mongodb
     secrets:
       - mongodb_username
       - mongodb_password
@@ -20,7 +20,7 @@ services:
 #      - network
 
   nodejs-server:
-    image: zp-node
+    image: zpscraper-nodejs
     ports:
       - "1939:1939"
     environment:
@@ -28,6 +28,8 @@ services:
 #      - PROXY_URI=/run/secrets/proxy_uri
       - ZALANDO_EMAIL=/run/secrets/zalando_email
       - ZALANDO_PASSWORD=/run/secrets/zalando_password
+      - SCHEDULER_HOUR=23
+      - SCHEDULER_MINUTE=37
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     secrets:

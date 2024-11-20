@@ -80,7 +80,7 @@ const encodeURL = async (watchlist) => {
   return completeURL;
 };
 
-exports.startAllServices = async () => {
+exports.startAllHellasteeze = async () => {
   console.log("Attempting to create service...")
   try {
     const watchlists = await Watchlist.find();
@@ -88,9 +88,11 @@ exports.startAllServices = async () => {
       console.log("No watchlists were found. No services were created.")
     }
     else {
+      // Running CookieMonster first...
+      await runCookieMonster()
       for (const watchlist of watchlists) {
         const payload = await encodeURL(watchlist);
-        await createOrUpdateService(watchlist.name, payload);
+        await runHellasteeze(watchlist.name, payload);
       }
       console.log('All services started successfully');
     }
@@ -99,14 +101,12 @@ exports.startAllServices = async () => {
   }
 };
 
-const createOrUpdateService = async (serviceName, payload) => {
+const runHellasteeze = async (serviceName, payload) => {
   try {
     const environmentVariables = [
       `url=${payload}`,
       `MONGODB_URI=${readSecret('mongodb_uri')}`,
-      //      `PROXY_URI=${readSecret('proxy_uri')}`,
-      `ZALANDO_EMAIL=${readSecret('zalando_email')}`,
-      `ZALANDO_PASSWORD=${readSecret('zalando_password')}`
+      //    `PROXY_URI=${readSecret('proxy_uri')}`,
     ];
 
     const sanitizedServiceName = sanitizeServiceName(`hellasteeze_${serviceName}`);
@@ -158,7 +158,9 @@ const createOrUpdateService = async (serviceName, payload) => {
     // Ensure the service is deployed and running
     if (newService) {
       console.log(`Service ${sanitizedServiceName} created successfully.`);
+      await new Promise(resolve => setTimeout(resolve, 2000))
       const inspectResult = await docker.getService(sanitizedServiceName).inspect();
+      print("Checked if the service is created and running...")
       if (inspectResult && inspectResult.Spec) {
         console.log(`Service ${sanitizedServiceName} is now running.`);
       } else {
@@ -166,6 +168,80 @@ const createOrUpdateService = async (serviceName, payload) => {
       }
     } else {
       console.error(`Failed to create service ${sanitizedServiceName}.`);
+    }
+  } catch (err) {
+    console.error('Service was not created or restarted:', err.message);
+  }
+};
+
+// TODO: Horrible. Intentar reutilizar!!
+
+const runCookieMonster = async () => {
+  try {
+    const environmentVariables = [
+      `MONGODB_URI=${readSecret('mongodb_uri')}`,
+      `ZALANDO_EMAIL=${readSecret('zalando_email')}`,
+      `ZALANDO_PASSWORD=${readSecret('zalando_password')}`
+    ];
+
+    const serviceName = "zpscraper-cookiemonster"
+
+    const existingService = await serviceExists(serviceName);
+
+    const serviceSpec = {
+      Name: serviceName,
+      TaskTemplate: {
+        ContainerSpec: {
+          Image: 'zpscraper-cookiemonster',
+          Mounts: [
+            {
+              Target: '/var/run/docker.sock',
+              Source: '/var/run/docker.sock',
+              Type: 'bind'
+            }
+          ],
+          Env: environmentVariables,
+        },
+        RestartPolicy: {
+          Condition: 'none',
+        },
+        Placement: {
+          Constraints: ['node.role == manager'],
+        },
+      },
+      Mode: {
+        Replicated: {
+          Replicas: 1,
+        },
+      },
+      Networks: [{
+        Target: 'zpscraper_network'
+      }],
+    };
+
+    if (existingService) {
+      console.log(`Service ${serviceName} already exists, removing and recreating it.`);
+      const service = docker.getService(existingService.ID);
+      await service.remove();
+    } else {
+      console.log(`Service ${serviceName} does not exist, creating it.`);
+    }
+
+    const newService = docker.createService(serviceSpec);
+
+    // Ensure the service is deployed and running
+    if (newService) {
+      console.log(`Service ${serviceName} created successfully.`);
+      await new Promise(resolve => setTimeout(resolve, 2000))
+      const inspectResult = await docker.getService(serviceName).inspect();
+      print("Checked if the service is created and running...")
+      if (inspectResult && inspectResult.Spec) {
+        console.log(`Service ${serviceName} is now running.`);
+      } else {
+        console.log(`Service ${serviceName} was created but is not running.`);
+      }
+    } else {
+      console.error(`Failed to create service ${serviceName}.`);
     }
   } catch (err) {
     console.error('Service was not created or restarted:', err.message);
