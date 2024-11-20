@@ -170,7 +170,6 @@ initial_headers = {
 
 cookies = load_cookies_from_mongo()
 if cookies:
-    initial_headers['Cookie'] = update_cookies('', cookies)
     try_request_with_cookies()
 else:
     print("No cookies found or expired cookies.")
