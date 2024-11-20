@@ -1,6 +1,3 @@
-docker
 pymongo
 python-dateutil
 requests
-selenium
-undetected-chromedriver

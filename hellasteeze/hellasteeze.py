@@ -2,9 +2,7 @@ import requests
 import json
 import pymongo
 import os
-from cookiemonster import test_login
 from pymongo import MongoClient
-import docker
 import random
 import time
 from datetime import datetime
@@ -13,7 +11,6 @@ from dateutil import parser
 MONGO_URI = os.getenv('MONGODB_URI') 
 #PROXY_URI = os.getenv('PROXY_URI') 
 
-client = docker.from_env()
     
 #tor_proxy = {
 #        'http': PROXY_URI,
@@ -29,19 +26,6 @@ def get_ip_and_country():
         print(f"Performing request from {ip} in {country}")
     except requests.exceptions.JSONDecodeError:
         print("Error decoding your IP address. Weird!")
-        
-
-def update_cookies(cookies, updates):
-    cookie_str = ''
-    for key, value in updates.items():
-        cookie_str += f'{key}={value}; '
-    print(f'Cookies are: {cookie_str}')
-    return cookie_str
-
-# Function to save JSON to a file
-def save_json_to_file(json_data, filename):
-    with open(filename, 'w') as json_file:
-        json.dump(json_data, json_file, indent=4)
 
 # Function to load cookies from MongoDB
 def load_cookies_from_mongo():
@@ -50,14 +34,6 @@ def load_cookies_from_mongo():
     collection = db['cookies']
     cookies_doc = collection.find_one({})
     return cookies_doc['cookies'] if cookies_doc else None
-
-# Function to save cookies to MongoDB
-def save_cookies_to_mongo(cookies):
-    print ("Saving cookies to MongoDB...")
-    client = MongoClient(MONGO_URI)
-    db = client['zalando-prive']
-    collection = db['cookies']
-    collection.update_one({}, {'$set': {'cookies': cookies}}, upsert=True)
 
 def save_response_to_mongo(responses):
     print("Saving product info to MongoDB...")
@@ -126,15 +102,6 @@ def save_response_to_mongo(responses):
                 upsert=True
             )
             
-def start_get_session_cookie_container():
-    print("Getting cookies from the monster...")
-    cookies = test_login()
-    print("Got cookies from the monster.")
-    
-    save_cookies_to_mongo(cookies)
-    initial_headers['Cookie'] = update_cookies('', cookies)
-    try_request_with_cookies()
-    
 # Function to try the request with cookies
 def try_request_with_cookies():
     get_ip_and_country()
@@ -201,11 +168,9 @@ initial_headers = {
 }
 
 
-# Load cookies from MongoDB
 cookies = load_cookies_from_mongo()
 if cookies:
     initial_headers['Cookie'] = update_cookies('', cookies)
     try_request_with_cookies()
 else:
-    print("No cookies found or expired cookies. Calling the cookie monster...")
-    start_get_session_cookie_container()
+    print("No cookies found or expired cookies.")
