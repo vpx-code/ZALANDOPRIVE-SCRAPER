@@ -88,8 +88,6 @@ exports.startAllHellasteeze = async () => {
       console.log("No watchlists were found. No services were created.")
     }
     else {
-      // Running CookieMonster first...
-      await runCookieMonster()
       for (const watchlist of watchlists) {
         const payload = await encodeURL(watchlist);
         await runHellasteeze(watchlist.name, payload);
@@ -176,7 +174,7 @@ const runHellasteeze = async (serviceName, payload) => {
 
 // TODO: Horrible. Intentar reutilizar!!
 
-const runCookieMonster = async () => {
+exports.runCookieMonster = async () => {
   try {
     const environmentVariables = [
       `MONGODB_URI=${readSecret('mongodb_uri')}`,

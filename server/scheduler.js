@@ -15,8 +15,21 @@ const cronSchedule = `${schedulerMinute} ${schedulerHour} * * *`;
 // Log the cron schedule string for debugging
 console.log(`Scheduler is set to run at ${schedulerHour}:${schedulerMinute} every day with cron schedule: ${cronSchedule}`);
 
-// Task to be scheduled
-const task = async () => {
+const getCookiesTask = async () => {
+  console.log('Get cookies task is executing...');
+  try {
+    await dockerController.runCookieMonster();
+  } catch (error) {
+    console.error('Error during service startup:', error.message);
+  }
+};
+
+const getCookiesCronjob = cron.schedule("20 1 */3 * *", getCookiesTask, { //cron.schedule("0 0 */2 * *", getCookiesTask, {
+  scheduled: true,
+  timezone: "Europe/Madrid"
+});
+
+const hellasteezeTask = async () => {
   console.log('Scheduler task is executing...');
   try {
     await dockerController.startAllHellasteeze();
@@ -25,17 +38,16 @@ const task = async () => {
   }
 };
 
-// Schedule the task with the correct timezone
-const campaignStartTask = cron.schedule(cronSchedule, task, {
+const campaignStartCronjob = cron.schedule(cronSchedule, hellasteezeTask, {
   scheduled: true,
   timezone: "Europe/Madrid"
 });
 
-const campaignEndTask = cron.schedule("0 0 * * *", task, {
+const campaignEndCronjob = cron.schedule("0 0 * * *", hellasteezeTask, {
   scheduled: true,
   timezone: "Europe/Madrid"
 });
 
-// Confirm scheduling
-console.log('Campaign start task scheduled:', campaignStartTask);
-console.log('Campaign end task scheduled:', campaignEndTask);
+console.log('Campaign start cron scheduled:', campaignStartCronjob);
+console.log('Campaign end cron scheduled:', campaignEndCronjob);
+console.log('Get cookies cron scheduled:', getCookiesCronjob);
