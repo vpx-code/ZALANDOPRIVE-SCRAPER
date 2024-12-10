@@ -5,6 +5,7 @@ import os
 from pymongo import MongoClient
 import random
 import time
+import sys
 from datetime import datetime
 from dateutil import parser
 
@@ -137,8 +138,15 @@ def try_request_with_cookies():
        
         else:
             print(f"Request failed with status code {response.status_code}.")
-            start_get_session_cookie_container()
-            break
+            try:
+                # Attempt to parse the response body as JSON
+                response_json = response.json()
+                print("Response JSON is:", response_json)
+            except requests.exceptions.JSONDecodeError:
+                # Handle the case where the response body is not JSON
+                print("Response body is not JSON. Raw response content:")
+                print(response.text)  # Log the raw response content for debugging
+            sys.exit(1)
         
         if len(results) > 0:
             print("Saving JSON to MongoDB...")
@@ -147,29 +155,40 @@ def try_request_with_cookies():
             print("No results were found for this request.")
 
 initial_headers = {
-  'Content-Type': 'application/json',
-  'Accept': '*/*',
-  'Sec-Fetch-Site': 'same-origin',
-  'Accept-Language': 'es-ES,es;q=0.9',
-  'Sec-Fetch-Mode': 'cors',
-  'Accept-Encoding': 'gzip, deflate, br',
-  'Origin': 'https://www.zalando-prive.es',
   'Referer': 'https://www.zalando-prive.es/articles/categories/24128398',
+  'Cookie': '',
+  'Cache-Control': 'no-cache',
   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15',
+  'Host': 'www.zalando-prive.es',
+  'Pragma': 'no-cache',
+  'Origin': 'https://www.zalando-prive.es',
+  'Sec-Fetch-Dest': 'empty',
+  'Sec-Fetch-Site': 'same-origin',
   'Content-Length': '15',
   'Connection': 'keep-alive',
-  'Host': 'www.zalando-prive.es',
-  'Sec-Fetch-Dest': 'empty',
-  'Cookie': '',  # Initially empty, will be populated later
-  'X-SortDown-Reserved': 'true',
-  'client_type': 'web',
+  'Accept-Language': 'es-ES,es;q=0.9',
+  'Accept': '*/*',
+  'Content-Type': 'application/json',
+  'Accept-Encoding': 'gzip, deflate, br',
+  'Sec-Fetch-Mode': 'cors',
   'X-Touchpoint': 'ccf',
-  'x-xsrf-token': '0518f92960fa8dc87c8d8b   2a52f967b86849d67e7a5172da335714761fb5717e'
+  'x-xsrf-token': '915dab1236ba7b80cf48aa4038e22ddf051f57e4fa2559f240f127f92eb1a765',
+  'X-SortDown-Reserved': 'true',
+  'client_type': 'web'
 }
 
 
+def format_cookies(cookies_dict):
+    return '; '.join(f"{key}={value}" for key, value in cookies_dict.items())
+
 cookies = load_cookies_from_mongo()
 if cookies:
-    try_request_with_cookies()
+    print("Cookies snippet: " + str(cookies)[:15])
+    formatted_cookies = format_cookies(cookies)
+    print(formatted_cookies)
+    initial_headers['Cookie'] = formatted_cookies
+    try_request_with_cookies() 
+    sys.exit(0)
 else:
     print("No cookies found or expired cookies.")
+    sys.exit(1)
