@@ -51,3 +51,6 @@ const campaignEndCronjob = cron.schedule("0 0 * * *", hellasteezeTask, {
 console.log('Campaign start cron scheduled:', campaignStartCronjob);
 console.log('Campaign end cron scheduled:', campaignEndCronjob);
 console.log('Get cookies cron scheduled:', getCookiesCronjob);
+
+console.log("Getting cookies for the first time...")
+dockerController.runCookieMonster(); // First run.
