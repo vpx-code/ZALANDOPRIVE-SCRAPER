@@ -1,12 +1,20 @@
 const mongoose = require('mongoose');
 
 const watchedProductSchema = new mongoose.Schema({
-    sku: {
+    simpleSku: {
         type: String,
         required: true
     },
-    size: {
+    configSku: {
         type: String,
+        required: true
+    },
+    campaignIdentifier: {
+        type: String,
+        required: true
+    },
+    quantity: {
+        type: Number,
         required: true
     }
 })

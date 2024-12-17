@@ -28,6 +28,7 @@ db.createCollection("products");
 db.createCollection("sizes");
 db.createCollection("tags");
 db.createCollection("watchlists");
+db.createCollection("watched_products");
 
 db.createView("tagged_categories", "tags", [
     {
