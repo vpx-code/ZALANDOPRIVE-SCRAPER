@@ -158,7 +158,7 @@ const runHellasteeze = async (serviceName, payload) => {
       console.log(`Service ${sanitizedServiceName} created successfully.`);
       await new Promise(resolve => setTimeout(resolve, 2000))
       const inspectResult = await docker.getService(sanitizedServiceName).inspect();
-      print("Checked if the service is created and running...")
+      console.log("Checked if the service is created and running...")
       if (inspectResult && inspectResult.Spec) {
         console.log(`Service ${sanitizedServiceName} is now running.`);
       } else {
@@ -174,6 +174,7 @@ const runHellasteeze = async (serviceName, payload) => {
 
 // TODO: Horrible. Intentar reutilizar!!
 
+// TODO: Podríamos guardarnos las cookies en local y no tener que llamar a la base cada vez.
 exports.runCookieMonster = async () => {
   try {
     const environmentVariables = [
@@ -232,7 +233,7 @@ exports.runCookieMonster = async () => {
       console.log(`Service ${serviceName} created successfully.`);
       await new Promise(resolve => setTimeout(resolve, 2000))
       const inspectResult = await docker.getService(serviceName).inspect();
-      print("Checked if the service is created and running...")
+      console.log("Checked if the service is created and running...")
       if (inspectResult && inspectResult.Spec) {
         console.log(`Service ${serviceName} is now running.`);
       } else {
@@ -245,3 +246,74 @@ exports.runCookieMonster = async () => {
     console.error('Service was not created or restarted:', err.message);
   }
 };
+
+exports.runProfessorCarter = async (payload) => {
+  try {
+    console.log(`Payload is ${JSON.stringify(payload)}`)
+    
+    const environmentVariables = [
+      `PRODUCT=${JSON.stringify(payload)}`,
+      `MONGODB_URI=${readSecret('mongodb_uri')}`,
+    ];
+
+    const serviceName = `professorcarter_${payload.simpleSku}`
+    const existingService = await serviceExists(serviceName);
+
+    if (existingService) {
+      console.log(`Service ${serviceName} already exists, removing and recreating it.`);
+      const service = docker.getService(existingService.ID);
+      await service.remove();
+    } else {
+      console.log(`Service ${serviceName} does not exist, creating it.`);
+    }
+
+    const serviceSpec = {
+      Name: serviceName,
+      TaskTemplate: {
+        ContainerSpec: {
+          Image: 'zpscraper-professorcarter',
+          Mounts: [
+            {
+              Target: '/var/run/docker.sock',
+              Source: '/var/run/docker.sock',
+              Type: 'bind'
+            }
+          ],
+          Env: environmentVariables,
+        },
+        RestartPolicy: {
+          Condition: 'none',
+        },
+        Placement: {
+          Constraints: ['node.role == manager'],
+        },
+      },
+      Mode: {
+        Replicated: {
+          Replicas: 1,
+        },
+      },
+      Networks: [{
+        Target: 'zpscraper_network'
+      }],
+    };
+
+    const newService = docker.createService(serviceSpec);
+    if (newService) {
+      console.log(`Service ${serviceName} created successfully.`);
+      await new Promise(resolve => setTimeout(resolve, 2000))
+      const inspectResult = await docker.getService(serviceName).inspect();
+      console.log("Checked if the service is created and running...")
+      if (inspectResult && inspectResult.Spec) {
+        console.log(`Service ${serviceName} is now running.`);
+      } else {
+        console.log(`Service ${serviceName} was created but is not running.`);
+      }
+    } else {
+      console.error(`Failed to create service ${serviceName}.`);
+    }
+  }
+  catch (err) {
+    console.error('Service was not created or restarted:', err.message);
+  }
+}
