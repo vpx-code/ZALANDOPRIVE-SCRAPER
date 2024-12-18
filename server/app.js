@@ -5,7 +5,7 @@ const fs = require('fs');
 const readSecret = (name) => fs.readFileSync(`/run/secrets/${name}`, 'utf8').trim();
 const productRoutes = require('./routes/productRoutes');
 const watchlistRoutes = require('./routes/watchlistRoutes');
-const dockerRoutes = require('./routes/dockerRoutes');
+const accountRoutes = require('./routes/accountRoutes');
 const brandRoutes = require('./routes/brandRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 require('./scheduler');
@@ -21,11 +21,12 @@ mongoose.connect(MONGODB_URI)
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 
-app.use('/api/products', productRoutes);
-app.use('/api/watchlists', watchlistRoutes);
-app.use('/api/brands', brandRoutes);
-app.use('/api/categories', categoryRoutes);
-app.use('/test/docker', dockerRoutes);
+const apiPrefix = "/api"
+app.use(`${apiPrefix}/products`, productRoutes);
+app.use(`${apiPrefix}/watchlists`, watchlistRoutes);
+app.use(`${apiPrefix}/brands`, brandRoutes);
+app.use(`${apiPrefix}/categories`, categoryRoutes);
+app.use(`${apiPrefix}/account`, accountRoutes);
 
 // Start the server
 app.listen(PORT, () => {
