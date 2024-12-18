@@ -83,10 +83,16 @@ def save_response_to_mongo(responses):
                 "images": [base_image_url + img for img in item.get("images", [])[:3]],
                 "brandCode": item.get("brandCode"),
                 "sku": item.get("sku"),
+                "campaignId": item.get("campaignIdentifier"),
                 "campaignEndDate": campaign_end_date,  # Store the latest campaign end date
                 "specialPrice": special_price,  # Store the latest special price
                 "stockStatus": stockStatus,
-                "urlPath": base_url + item.get("urlPath", {}).get("46")
+                "urlPath": base_url + item.get("urlPath", {}).get("46"),
+                "variants": [{
+                    "simpleSku": v["sku"],
+                    "size": v["filterValue"]
+                }
+                for v in item.get("simples")]
             }
             
             collection.update_one(
