@@ -3,3 +3,4 @@ venv
 node_modules
 selenium-tests
 github-token
+secrets/
